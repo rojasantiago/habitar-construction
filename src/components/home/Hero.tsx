@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ShieldCheck, Star, ArrowRight } from "lucide-react";
+import { ShieldCheck, ArrowRight } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/types";
 import { Container } from "@/components/ui/Container";
@@ -55,16 +55,6 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
 
           {/* Trust row */}
           <div className="mt-12 flex flex-wrap items-center gap-x-8 gap-y-4">
-            <div className="flex items-center gap-2">
-              <div className="flex">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} size={16} className="fill-orange-400 text-orange-400" />
-                ))}
-              </div>
-              <span className="text-sm font-medium text-slate-200">
-                {h.stats[2].value} {h.stats[2].label}
-              </span>
-            </div>
             <div className="flex items-center gap-2 text-sm font-medium text-slate-200">
               <ShieldCheck size={18} className="text-orange-400" />
               {h.heroTrust}
