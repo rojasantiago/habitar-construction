@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf9f6;
+  --foreground: #0b1220;
+
+  /* Deep navy scale */
+  --color-navy-950: #05090f;
+  --color-navy-900: #0a1526;
+  --color-navy-800: #0f2038;
+  --color-navy-700: #163150;
+  --color-navy-600: #21456b;
+  --color-navy-500: #305d8a;
+
+  /* Orange / amber accent */
+  --color-orange-700: #b8480a;
+  --color-orange-600: #d9600a;
+  --color-orange-500: #f2761e;
+  --color-orange-400: #f89442;
+  --color-orange-300: #fbb271;
+  --color-orange-100: #fde8d4;
+  --color-orange-50: #fef4e9;
+
+  /* Warm stone neutrals */
+  --color-stone-50: #faf9f6;
+  --color-stone-100: #f3f1ec;
+  --color-stone-200: #e7e3da;
+  --color-stone-300: #d5cfc2;
+
+  /* Cool slate for text */
+  --color-slate-50: #f6f7f9;
+  --color-slate-100: #eef1f4;
+  --color-slate-200: #dde2e8;
+  --color-slate-300: #c4ccd6;
+  --color-slate-400: #8b95a1;
+  --color-slate-500: #64707e;
+  --color-slate-600: #4b5563;
+  --color-slate-700: #333f4e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-display);
+
+  --color-navy-950: var(--color-navy-950);
+  --color-navy-900: var(--color-navy-900);
+  --color-navy-800: var(--color-navy-800);
+  --color-navy-700: var(--color-navy-700);
+  --color-navy-600: var(--color-navy-600);
+  --color-navy-500: var(--color-navy-500);
+
+  --color-orange-700: var(--color-orange-700);
+  --color-orange-600: var(--color-orange-600);
+  --color-orange-500: var(--color-orange-500);
+  --color-orange-400: var(--color-orange-400);
+  --color-orange-300: var(--color-orange-300);
+  --color-orange-100: var(--color-orange-100);
+  --color-orange-50: var(--color-orange-50);
+
+  --color-stone-50: var(--color-stone-50);
+  --color-stone-100: var(--color-stone-100);
+  --color-stone-200: var(--color-stone-200);
+  --color-stone-300: var(--color-stone-300);
+
+  --color-slate-50: var(--color-slate-50);
+  --color-slate-100: var(--color-slate-100);
+  --color-slate-200: var(--color-slate-200);
+  --color-slate-300: var(--color-slate-300);
+  --color-slate-400: var(--color-slate-400);
+  --color-slate-500: var(--color-slate-500);
+  --color-slate-600: var(--color-slate-600);
+  --color-slate-700: var(--color-slate-700);
+
+  --animate-marquee: marquee 40s linear infinite;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Blueprint-style grid overlay for dark sections */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.bg-grid-dark {
+  background-image:
+    linear-gradient(to right, rgba(10, 21, 38, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(10, 21, 38, 0.04) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
