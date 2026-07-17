@@ -121,7 +121,7 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           <p>
             &copy; {year} Habitar Construction. {dict.footer.rights}
           </p>
-          <p>{dict.common.region}</p>
+          <p>{dict.common.rbqLicense}</p>
         </Container>
       </div>
     </footer>

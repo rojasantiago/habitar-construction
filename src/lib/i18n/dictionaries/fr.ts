@@ -33,6 +33,7 @@ const fr: Dictionary = {
     ctaSecondary: "Voir nos projets",
     readMore: "En savoir plus",
     viewAll: "Voir tous les services",
+    rbqLicense: "Licence RBQ : 57631392",
   },
   home: {
     heroEyebrow: "Entrepreneur général — résidentiel & commercial",
@@ -42,9 +43,9 @@ const fr: Dictionary = {
       "Habitar Construction gère vos projets de construction et de rénovation de A à Z : planification, permis, corps de métier et livraison clé en main.",
     heroCtaPrimary: "Demander une soumission gratuite",
     heroCtaSecondary: "Découvrir nos services",
-    heroTrust: "Licencié RBQ · Assuré · Garanti",
+    heroTrust: "Licence RBQ 57631392 · Assuré · Garanti",
     trustBadges: [
-      "Licence RBQ",
+      "Licence RBQ 57631392",
       "Assurance responsabilité",
       "Garantie GCR",
       "Membre APCHQ",

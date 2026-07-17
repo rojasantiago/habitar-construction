@@ -29,6 +29,7 @@ export interface Dictionary {
     ctaSecondary: string;
     readMore: string;
     viewAll: string;
+    rbqLicense: string;
   };
   home: {
     heroEyebrow: string;

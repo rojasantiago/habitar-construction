@@ -33,6 +33,7 @@ const en: Dictionary = {
     ctaSecondary: "View Our Projects",
     readMore: "Learn More",
     viewAll: "View All Services",
+    rbqLicense: "RBQ License: 57631392",
   },
   home: {
     heroEyebrow: "General Contractor — Residential & Commercial",
@@ -42,9 +43,9 @@ const en: Dictionary = {
       "Habitar Construction manages your construction and renovation projects from A to Z: planning, permits, trades, and turnkey delivery.",
     heroCtaPrimary: "Request a Free Quote",
     heroCtaSecondary: "Explore Our Services",
-    heroTrust: "RBQ Licensed · Insured · Guaranteed",
+    heroTrust: "RBQ License 57631392 · Insured · Guaranteed",
     trustBadges: [
-      "RBQ License",
+      "RBQ License 57631392",
       "Liability Insured",
       "GCR Warranty",
       "APCHQ Member",
