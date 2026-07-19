@@ -26,8 +26,8 @@ const en: Dictionary = {
     rights: "All rights reserved.",
   },
   common: {
-    phone: "(514) 000-0000",
-    email: "info@habitarconstruction.com",
+    phone: "(514) 655-2458",
+    email: "habitar.construction@gmail.com",
     region: "Greater Montreal Area",
     addressLine: "1234 Construction St, Montreal, QC",
     ctaPrimary: "Request a Free Quote",
