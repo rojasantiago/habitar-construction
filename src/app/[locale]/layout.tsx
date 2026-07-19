@@ -3,6 +3,7 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import { notFound } from "next/navigation";
 import { isLocale, locales, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
+import { getBaseUrl } from "@/lib/site";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import "../globals.css";
@@ -31,12 +32,32 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = await getDictionary(locale);
+  const baseUrl = getBaseUrl();
+  const title = `${dict.meta.titleSuffix} — ${dict.home.heroTitle} ${dict.home.heroHighlight}`;
+
   return {
+    metadataBase: new URL(baseUrl),
     title: {
-      default: `${dict.meta.titleSuffix} — ${dict.home.heroTitle} ${dict.home.heroHighlight}`,
+      default: title,
       template: `%s | ${dict.meta.titleSuffix}`,
     },
     description: dict.meta.defaultDescription,
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        fr: "/fr",
+        en: "/en",
+        "x-default": "/fr",
+      },
+    },
+    openGraph: {
+      type: "website",
+      siteName: dict.meta.titleSuffix,
+      locale: locale === "fr" ? "fr_CA" : "en_CA",
+      url: `${baseUrl}/${locale}`,
+      title,
+      description: dict.meta.defaultDescription,
+    },
   };
 }
 
