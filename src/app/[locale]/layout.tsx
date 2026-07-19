@@ -37,6 +37,10 @@ export async function generateMetadata({
 
   return {
     metadataBase: new URL(baseUrl),
+    robots:
+      process.env.SITE_PUBLIC === "true"
+        ? undefined
+        : { index: false, follow: false },
     title: {
       default: title,
       template: `%s | ${dict.meta.titleSuffix}`,
