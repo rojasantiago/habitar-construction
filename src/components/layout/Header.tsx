@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/types";
-import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { Logo } from "@/components/ui/Logo";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -49,7 +48,8 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           : "border-b border-transparent bg-transparent"
       }`}
     >
-      <Container className="flex items-center justify-between py-4">
+      {/* Wider than the page container so the logo sits closer to the edge. */}
+      <div className="mx-auto flex w-full max-w-[1600px] items-center justify-between px-5 py-4 lg:px-10">
         <Link
           href={`/${locale}`}
           aria-label="Habitar Construction"
@@ -108,11 +108,11 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         >
           {open ? <X size={24} /> : <Menu size={24} />}
         </button>
-      </Container>
+      </div>
 
       {open && (
         <div className="border-t border-stone-200 bg-stone-50 lg:hidden">
-          <Container className="flex flex-col gap-1 py-4">
+          <div className="mx-auto flex w-full max-w-[1600px] flex-col gap-1 px-5 py-4 lg:px-10">
             {links.map((link) => (
               <Link
                 key={link.href}
@@ -140,7 +140,7 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             <Button href={`/${locale}/contact`} className="mt-3 w-full">
               {dict.nav.getQuote}
             </Button>
-          </Container>
+          </div>
         </div>
       )}
     </header>
