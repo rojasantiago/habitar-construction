@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { HardHat, Phone, Mail, MapPin, Clock, ArrowRight } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, ArrowRight } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/types";
 import { Container } from "@/components/ui/Container";
+import { Logo } from "@/components/ui/Logo";
 
 export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   const year = new Date().getFullYear();
@@ -25,7 +26,7 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
       <div className="border-b border-white/10">
         <Container className="flex flex-col items-center justify-between gap-5 py-10 text-center sm:flex-row sm:text-left">
           <p className="max-w-lg font-display text-xl font-semibold text-white sm:text-2xl">
-            {dict.home.ctaTitle}
+            {dict.footer.ctaTitle}
           </p>
           <Link
             href={`/${locale}/contact`}
@@ -39,19 +40,9 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
 
       <Container className="grid gap-10 py-16 sm:grid-cols-2 lg:grid-cols-4">
         <div className="flex flex-col gap-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-orange-500 text-white">
-              <HardHat size={21} />
-            </span>
-            <span className="leading-tight">
-              <span className="block font-display text-lg font-bold text-white">
-                Habitar
-              </span>
-              <span className="block text-[10px] font-semibold tracking-[0.25em] text-orange-400">
-                CONSTRUCTION
-              </span>
-            </span>
-          </div>
+          <span className="block h-12 w-fit">
+            <Logo variant="white" />
+          </span>
           <p className="text-sm leading-relaxed text-slate-400">
             {dict.footer.tagline}
           </p>

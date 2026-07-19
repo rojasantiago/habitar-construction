@@ -17,6 +17,7 @@ const en: Dictionary = {
   footer: {
     tagline:
       "A trusted general contractor for your residential and commercial projects, from the first blueprint to the final key.",
+    ctaTitle: "Questions about your project? Let's talk.",
     servicesTitle: "Services",
     companyTitle: "Company",
     contactTitle: "Contact",

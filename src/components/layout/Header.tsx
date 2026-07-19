@@ -3,11 +3,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Menu, X, HardHat, Phone } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/types";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
+import { Logo } from "@/components/ui/Logo";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
@@ -49,29 +50,26 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
       }`}
     >
       <Container className="flex items-center justify-between py-4">
-        <Link href={`/${locale}`} className="flex items-center gap-2.5">
+        <Link
+          href={`/${locale}`}
+          aria-label="Habitar Construction"
+          className="relative block h-10 sm:h-12"
+        >
+          {/* Both marks are stacked and cross-faded so the switch on scroll
+              never flashes an empty gap. */}
           <span
-            className={`flex h-10 w-10 items-center justify-center rounded-lg transition-colors ${
-              solid ? "bg-navy-900 text-orange-500" : "bg-white/10 text-orange-500 backdrop-blur-sm"
+            className={`block h-full transition-opacity duration-300 ${
+              solid ? "opacity-100" : "opacity-0"
             }`}
           >
-            <HardHat size={21} />
+            <Logo variant="dark" priority />
           </span>
-          <span className="leading-tight">
-            <span
-              className={`block font-display text-lg font-bold tracking-tight transition-colors ${
-                solid ? "text-navy-900" : "text-white"
-              }`}
-            >
-              Habitar
-            </span>
-            <span
-              className={`block text-[10px] font-semibold tracking-[0.25em] transition-colors ${
-                solid ? "text-orange-600" : "text-orange-400"
-              }`}
-            >
-              CONSTRUCTION
-            </span>
+          <span
+            className={`absolute inset-0 h-full transition-opacity duration-300 ${
+              solid ? "opacity-0" : "opacity-100"
+            }`}
+          >
+            <Logo variant="white" priority />
           </span>
         </Link>
 

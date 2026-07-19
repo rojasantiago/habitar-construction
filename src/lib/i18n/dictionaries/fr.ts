@@ -17,6 +17,7 @@ const fr: Dictionary = {
   footer: {
     tagline:
       "Entrepreneur général de confiance pour vos projets résidentiels et commerciaux, du premier plan à la remise des clés.",
+    ctaTitle: "Une question sur votre projet ? Parlons-en.",
     servicesTitle: "Services",
     companyTitle: "Entreprise",
     contactTitle: "Contact",

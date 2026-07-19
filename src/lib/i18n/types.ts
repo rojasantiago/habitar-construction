@@ -13,6 +13,7 @@ export interface Dictionary {
   };
   footer: {
     tagline: string;
+    ctaTitle: string;
     servicesTitle: string;
     companyTitle: string;
     contactTitle: string;
