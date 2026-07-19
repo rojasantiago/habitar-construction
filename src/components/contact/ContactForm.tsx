@@ -1,28 +1,66 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { CheckCircle2, Loader2 } from "lucide-react";
+import { CheckCircle2, Loader2, Mail, Phone } from "lucide-react";
 import type { Dictionary } from "@/lib/i18n/types";
 
 export function ContactForm({ dict }: { dict: Dictionary }) {
   const [status, setStatus] = useState<"idle" | "submitting" | "success">("idle");
   const f = dict.contact.formFields;
 
+  // Until a mail service is wired up, hand the request off to the visitor's own
+  // email client rather than pretending it was delivered.
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setStatus("submitting");
     const form = e.currentTarget;
-    setTimeout(() => {
-      setStatus("success");
-      form.reset();
-    }, 900);
+    const data = new FormData(form);
+    const get = (k: string) => String(data.get(k) ?? "").trim();
+
+    const body = [
+      `${f.name}: ${get("name")}`,
+      `${f.email}: ${get("email")}`,
+      `${f.phone}: ${get("phone") || "—"}`,
+      `${f.projectType}: ${get("projectType")}`,
+      "",
+      `${f.message}:`,
+      get("message"),
+    ].join("\n");
+
+    const href =
+      `mailto:${dict.common.email}` +
+      `?subject=${encodeURIComponent(f.emailSubject)}` +
+      `&body=${encodeURIComponent(body)}`;
+
+    setStatus("submitting");
+    window.location.href = href;
+    setStatus("success");
   }
 
   if (status === "success") {
+    const tel = dict.common.phone.replace(/[^\d+]/g, "");
     return (
-      <div className="flex flex-col items-center gap-4 rounded-2xl border border-orange-200 bg-orange-50 p-10 text-center">
+      <div className="flex flex-col items-center gap-5 rounded-2xl border border-orange-200 bg-orange-50 p-10 text-center">
         <CheckCircle2 size={40} className="text-orange-600" />
         <p className="text-base font-medium text-navy-900">{f.success}</p>
+        <div className="flex flex-col items-center gap-3 border-t border-orange-200 pt-5">
+          <p className="text-sm text-slate-600">{f.successHint}</p>
+          <div className="flex flex-col gap-2 sm:flex-row sm:gap-5">
+            <a
+              href={`mailto:${dict.common.email}`}
+              className="inline-flex items-center gap-2 text-sm font-semibold text-navy-900 hover:text-orange-600"
+            >
+              <Mail size={16} className="text-orange-500" />
+              {dict.common.email}
+            </a>
+            <a
+              href={`tel:${tel}`}
+              className="inline-flex items-center gap-2 text-sm font-semibold text-navy-900 hover:text-orange-600"
+            >
+              <Phone size={16} className="text-orange-500" />
+              {dict.common.phone}
+            </a>
+          </div>
+        </div>
       </div>
     );
   }

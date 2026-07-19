@@ -117,6 +117,8 @@ export interface Dictionary {
       submit: string;
       submitting: string;
       success: string;
+      successHint: string;
+      emailSubject: string;
     };
     projectTypes: string[];
     infoTitle: string;

@@ -299,8 +299,10 @@ const en: Dictionary = {
       projectType: "Project Type",
       message: "Describe your project",
       submit: "Send Request",
-      submitting: "Sending...",
-      success: "Thank you! Your request has been sent. We'll be in touch shortly.",
+      submitting: "Opening your email app...",
+      success: "Your email app is opening with your request already written — all that's left is to hit send.",
+      successHint: "Nothing opened? Email or call us directly:",
+      emailSubject: "Quote request — Habitar Construction",
     },
     projectTypes: [
       "New Residential Construction",

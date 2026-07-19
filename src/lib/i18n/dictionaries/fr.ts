@@ -299,8 +299,10 @@ const fr: Dictionary = {
       projectType: "Type de projet",
       message: "Décrivez votre projet",
       submit: "Envoyer la demande",
-      submitting: "Envoi en cours...",
-      success: "Merci ! Votre demande a été envoyée. Nous vous contacterons sous peu.",
+      submitting: "Ouverture de votre messagerie...",
+      success: "Votre logiciel de courriel s'ouvre avec votre demande déjà rédigée — il ne vous reste qu'à l'envoyer.",
+      successHint: "Rien ne s'est ouvert ? Écrivez-nous ou appelez-nous directement :",
+      emailSubject: "Demande de soumission — Habitar Construction",
     },
     projectTypes: [
       "Construction résidentielle neuve",
