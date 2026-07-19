@@ -38,10 +38,10 @@ const fr: Dictionary = {
   },
   home: {
     heroEyebrow: "Entrepreneur général — résidentiel & commercial",
-    heroTitle: "Votre projet, construit",
-    heroHighlight: "sans compromis.",
+    heroTitle: "Votre projet, livré",
+    heroHighlight: "comme promis.",
     heroSubtitle:
-      "Habitar Construction gère vos projets de construction et de rénovation de A à Z : planification, permis, corps de métier et livraison clé en main.",
+      "Un échéancier que l'on respecte, un budget clair dès le départ, et une seule personne responsable du début à la fin. Vous savez toujours où en est votre chantier.",
     heroCtaPrimary: "Demander une soumission gratuite",
     heroCtaSecondary: "Découvrir nos services",
     heroTrust: "Licence RBQ 57631392 · Assuré · Garanti",

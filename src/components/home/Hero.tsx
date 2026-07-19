@@ -32,7 +32,9 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             {h.heroEyebrow}
           </span>
 
-          <h1 className="mt-6 font-display text-5xl font-bold leading-[1.02] tracking-tight text-white text-balance sm:text-6xl lg:text-7xl">
+          {/* Base size is tuned so the no-wrap highlight keeps a margin on
+              narrow phones. */}
+          <h1 className="mt-6 font-display text-[2.6rem] font-bold leading-[1.05] tracking-tight text-white text-balance sm:text-6xl lg:text-7xl">
             {h.heroTitle}{" "}
             <span className="relative whitespace-nowrap text-orange-500">
               {h.heroHighlight}
