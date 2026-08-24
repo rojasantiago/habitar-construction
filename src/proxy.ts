@@ -73,6 +73,17 @@ export function proxy(request: NextRequest) {
 
   const { pathname } = request.nextUrl;
 
+  // Assets are still gated above — the password check runs first — but they
+  // must not be locale-redirected. Next emits absolute paths like
+  // /_next/static/....css, and rewriting those to /fr/_next/static/....css
+  // sends every stylesheet, script and font to an address that does not
+  // exist. The page then renders as bare HTML.
+  const isAsset =
+    pathname.startsWith("/_next") ||
+    pathname === "/favicon.ico" ||
+    /\.[a-z0-9]+$/i.test(pathname);
+  if (isAsset) return;
+
   const pathnameHasLocale = locales.some(
     (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
   );
