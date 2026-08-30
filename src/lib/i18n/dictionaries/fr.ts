@@ -102,9 +102,9 @@ const fr: Dictionary = {
           "Vous n'arbitrez pas entre corps de métier, et vous ne racontez pas votre projet à trois personnes différentes. Une personne répond de l'échéancier, du budget et de la qualité, du premier coup de pelle à la dernière retouche.",
       },
       {
-        title: "Un prix écrit",
+        title: "Une soumission expliquée",
         description:
-          "Soumission ferme, détaillée poste par poste, avec ce qui est inclus et ce qui ne l'est pas. Tout ajout passe par un avenant signé avant les travaux — jamais découvert sur la facture finale.",
+          "Une soumission écrite et ferme, que nous prenons le temps de vous expliquer avant que vous signiez. Ce qui est compris et ce qui ne l'est pas est écrit noir sur blanc, et tout ajout passe par un avenant signé avant les travaux — jamais découvert sur la facture finale.",
       },
       {
         title: "Un budget suivi au jour le jour",
@@ -123,7 +123,7 @@ const fr: Dictionary = {
       {
         title: "Soumission",
         description:
-          "Un prix ferme, détaillé par poste. Vous voyez ce qui est compris, ce qui ne l'est pas, et l'échéancier proposé.",
+          "Une soumission claire, que nous passons avec vous. Nous reprenons chaque élément ensemble — les travaux compris, ceux qui ne le sont pas, l'échéancier — pour qu'il ne reste aucune zone floue.",
       },
       {
         title: "Chantier",
@@ -158,7 +158,7 @@ const fr: Dictionary = {
       {
         title: "Construction neuve",
         description:
-          "Nous montons la maison : le terrain, la fondation, la charpente, le toit, l'enveloppe, les portes et fenêtres, puis toute la finition intérieure. Vous recevez une soumission écrite qui détaille poste par poste ce qui est compris et ce qui ne l'est pas, et un échéancier que nous tenons.",
+          "Nous montons la maison : le terrain, la fondation, la charpente, le toit, l'enveloppe, les portes et fenêtres, puis toute la finition intérieure. Vous recevez une soumission écrite claire, que nous prenons le temps de vous expliquer, et un échéancier que nous tenons.",
         points: [
           "Excavation, terrassement et fondation",
           "Charpente de bois, toiture et ouvrages métalliques",

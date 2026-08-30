@@ -90,9 +90,9 @@ const en: Dictionary = {
           "You don't referee between trades, and you don't explain your project to three different people. One person answers for the schedule, the budget and the quality, from the first shovel to the last touch-up.",
       },
       {
-        title: "A written price",
+        title: "An estimate we explain",
         description:
-          "A firm estimate, broken down line by line, stating what is included and what is not. Any addition goes through a signed change order before the work starts — never discovered on the final invoice.",
+          "A firm written estimate, which we take the time to walk you through before you sign. What is included and what is not is set out in black and white, and any addition goes through a signed change order before the work starts — never discovered on the final invoice.",
       },
       {
         title: "A budget tracked daily",
@@ -111,7 +111,7 @@ const en: Dictionary = {
       {
         title: "Estimate",
         description:
-          "A firm price, broken down by line item. You see what's included, what isn't, and the proposed schedule.",
+          "A clear estimate, which we go through with you. We walk every element together — the work included, the work that is not, the schedule — so nothing is left vague.",
       },
       {
         title: "Construction",
@@ -146,7 +146,7 @@ const en: Dictionary = {
       {
         title: "New construction",
         description:
-          "We put the house up: the ground, the foundation, the framing, the roof, the envelope, the doors and windows, then all of the interior finishing. You get a written estimate setting out line by line what is included and what is not, and a schedule we hold to.",
+          "We put the house up: the ground, the foundation, the framing, the roof, the envelope, the doors and windows, then all of the interior finishing. You get a clear written estimate, which we take the time to explain to you, and a schedule we hold to.",
         points: [
           "Excavation, earthwork and foundation",
           "Wood framing, roofing and metalwork",
