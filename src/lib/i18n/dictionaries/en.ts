@@ -9,7 +9,7 @@ const en: Dictionary = {
   meta: {
     titleSuffix: "Habitar Construction",
     defaultDescription:
-      "Habitar Construction — a family construction company serving Greater Montreal since 2018. New construction, modular homes and major renovation. RBQ licence 5763-1392-01.",
+      "Habitar Construction — a family construction company serving Greater Montreal since 2018. New construction, modular homes and renovation. RBQ licence 5763-1392-01.",
   },
   nav: {
     home: "Home",
@@ -47,7 +47,7 @@ const en: Dictionary = {
     heroTitle: "From the ground up",
     heroHighlight: "to the last coat.",
     heroSubtitle:
-      "New construction, modular homes and major renovation across Greater Montreal. A family company since 2018, built on its clients' recommendations.",
+      "New construction, modular homes and renovation across Greater Montreal. A family company since 2018, built on its clients' recommendations.",
     heroCtaPrimary: "Request a free estimate",
     heroCtaSecondary: "See our services",
     heroTrust: "RBQ licence 5763-1392-01 · Family company since 2018",
@@ -56,7 +56,7 @@ const en: Dictionary = {
       "Family company since 2018",
       "New construction",
       "Modular homes",
-      "Major renovation",
+      "Renovation and conversion",
       "Recommended by word of mouth",
       "Free estimate",
       "Answered within 24 hours",
@@ -73,7 +73,7 @@ const en: Dictionary = {
     servicesEyebrow: "What we do",
     servicesTitle: "Three ways to build with us",
     servicesSubtitle:
-      "Build new, set down a modular home, or transform completely what is already there.",
+      "Build new, set down a modular home, or transform what is already there.",
     whyEyebrow: "Why Habitar",
     whyTitle: "Fewer hands, fewer grey areas",
     whySubtitle:
@@ -141,7 +141,7 @@ const en: Dictionary = {
     heroEyebrow: "Our services",
     heroTitle: "From bare ground to the last coat of paint",
     heroSubtitle:
-      "Three ways to build with us: build new, set down a modular home, or transform completely what is already there.",
+      "Three ways to build with us: build new, set down a modular home, or transform what is already there.",
     list: [
       {
         title: "New construction",
@@ -168,14 +168,14 @@ const en: Dictionary = {
         imageId: "photo-1600566753190-17f0baa2a6c3",
       },
       {
-        title: "Major renovation and conversion",
+        title: "Renovation and conversion",
         description:
-          "Stripping a unit or a house back to the structure, then rebuilding the partitions, the insulation, the windows and every finish. Residential and commercial alike — we have rebuilt entire units and store interiors.",
+          "From reworking an interior through to starting over from the existing structure. We scale the work to what you are after and to what the building allows — residential and commercial alike.",
         points: [
-          "Full strip-out back to the framing",
-          "New partitions, insulation and soundproofing",
-          "Kitchens, bathrooms and basements",
-          "Commercial fit-out and renovation",
+          "Reconfiguring and reworking interior spaces",
+          "Starting over from the existing structure",
+          "Insulation, soundproofing, doors and windows",
+          "Residential and commercial",
         ],
         imageId: "photo-1600607687939-ce8a6c25118c",
       },
@@ -370,7 +370,7 @@ const en: Dictionary = {
       emailSubject: "Estimate request — Habitar Construction",
     },
     projectTypes: [
-      "Residential renovation — minor or major",
+      "Renovation and conversion",
       "New construction — structure and envelope",
       "Building envelope — roofing, cladding, windows",
       "Site work, excavation and foundation",

@@ -21,7 +21,7 @@ const fr: Dictionary = {
   meta: {
     titleSuffix: "Habitar Construction",
     defaultDescription:
-      "Habitar Construction — entreprise familiale de construction du Grand Montréal depuis 2018. Construction neuve, maisons modulaires et rénovation majeure. Licence RBQ 5763-1392-01.",
+      "Habitar Construction — entreprise familiale de construction du Grand Montréal depuis 2018. Construction neuve, maisons modulaires et rénovation. Licence RBQ 5763-1392-01.",
   },
   nav: {
     home: "Accueil",
@@ -59,7 +59,7 @@ const fr: Dictionary = {
     heroTitle: "Du terrassement",
     heroHighlight: "à la finition.",
     heroSubtitle:
-      "Construction neuve, maisons modulaires et rénovation majeure dans le Grand Montréal. Une entreprise familiale depuis 2018, bâtie sur la recommandation de ses clients.",
+      "Construction neuve, maisons modulaires et rénovation dans le Grand Montréal. Une entreprise familiale depuis 2018, bâtie sur la recommandation de ses clients.",
     heroCtaPrimary: "Demander une soumission gratuite",
     heroCtaSecondary: "Découvrir nos services",
     heroTrust: "Licence RBQ 5763-1392-01 · Entreprise familiale depuis 2018",
@@ -68,7 +68,7 @@ const fr: Dictionary = {
       "Entreprise familiale depuis 2018",
       "Construction neuve",
       "Maisons modulaires",
-      "Rénovation majeure",
+      "Rénovation et transformation",
       "Recommandé de bouche à oreille",
       "Soumission gratuite",
       "Réponse en 24 heures",
@@ -85,7 +85,7 @@ const fr: Dictionary = {
     servicesEyebrow: "Ce que nous faisons",
     servicesTitle: "Trois façons de bâtir avec nous",
     servicesSubtitle:
-      "Construire neuf, poser une maison modulaire, ou transformer complètement ce qui existe déjà.",
+      "Construire neuf, poser une maison modulaire, ou transformer ce qui existe déjà.",
     whyEyebrow: "Pourquoi Habitar",
     whyTitle: "Moins d'intervenants, moins de zones grises",
     whySubtitle:
@@ -153,7 +153,7 @@ const fr: Dictionary = {
     heroEyebrow: "Nos services",
     heroTitle: "Du terrain nu au dernier coup de pinceau",
     heroSubtitle:
-      "Trois façons de bâtir avec nous : construire neuf, poser une maison modulaire, ou transformer complètement ce qui existe déjà.",
+      "Trois façons de bâtir avec nous : construire neuf, poser une maison modulaire, ou transformer ce qui existe déjà.",
     list: [
       {
         title: "Construction neuve",
@@ -180,14 +180,14 @@ const fr: Dictionary = {
         imageId: "photo-1600566753190-17f0baa2a6c3",
       },
       {
-        title: "Rénovation majeure et transformation",
+        title: "Rénovation et transformation",
         description:
-          "Vider un logement ou une maison jusqu'à la structure, refaire les divisions, l'isolation, les fenêtres et toute la finition. Résidentiel comme commercial — nous avons refait des logements complets comme des intérieurs de commerces.",
+          "De la modification d'un intérieur jusqu'à la reprise complète à partir de la structure existante. On ajuste l'ampleur des travaux à ce que vous cherchez et à ce que le bâtiment permet — au résidentiel comme au commercial.",
         points: [
-          "Décapage complet jusqu'à la charpente",
-          "Nouvelles divisions, isolation et insonorisation",
-          "Cuisines, salles de bain et sous-sols",
-          "Aménagement et rénovation de locaux commerciaux",
+          "Réaménagement et modification des espaces",
+          "Reprise complète à partir de la structure existante",
+          "Isolation, insonorisation, portes et fenêtres",
+          "Résidentiel et commercial",
         ],
         imageId: "photo-1600607687939-ce8a6c25118c",
       },
@@ -382,7 +382,7 @@ const fr: Dictionary = {
       emailSubject: "Demande de soumission — Habitar Construction",
     },
     projectTypes: [
-      "Rénovation résidentielle — mineure ou majeure",
+      "Rénovation et transformation",
       "Construction neuve — structure et enveloppe",
       "Enveloppe du bâtiment — toiture, revêtement, fenêtres",
       "Travaux extérieurs, excavation et fondation",
