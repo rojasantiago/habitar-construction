@@ -60,6 +60,7 @@ const en: Dictionary = {
       "Doors and windows",
       "Cabinets and countertops",
       "Modular homes",
+      "Family company since 2018",
       "Recommended by word of mouth",
       "Free estimate",
     ],
@@ -74,7 +75,7 @@ const en: Dictionary = {
     servicesEyebrow: "What we do",
     servicesTitle: "Six areas, one licence",
     servicesSubtitle:
-      "Minor and major renovation, new construction, envelope, site work, modular homes and project management — under the same licence number.",
+      "New construction, modular homes and major renovation — plus the envelope, site work and project management, under the same licence number.",
     whyEyebrow: "Why Habitar",
     whyTitle: "Fewer hands, fewer grey areas",
     whySubtitle:
@@ -142,31 +143,43 @@ const en: Dictionary = {
     heroEyebrow: "Our services",
     heroTitle: "From bare ground to the last coat of paint",
     heroSubtitle:
-      "Minor and major renovation, structure and envelope on new builds, site work, modular homes and project management — fourteen RBQ subcategories under a single licence number.",
+      "New construction, modular homes and major renovation — plus the envelope, site work and project management. Fourteen RBQ subcategories under a single licence number.",
     list: [
       {
-        title: "Residential renovation — minor and major",
+        title: "New construction",
         description:
-          "From a single bathroom to rebuilding the entire interior of a house. Demolition, reconfiguring the layout, new interior framing, envelope, finishing: the licence covers every trade a major renovation calls for.",
-        points: [
-          "Kitchens, bathrooms and basements",
-          "Full reconfiguration, demolition and interior rebuild",
-          "Ceramic, marble, factory-made cabinets and countertops",
-          "Doors, windows and finishing work",
-        ],
-        imageId: "photo-1600607687939-ce8a6c25118c",
-      },
-      {
-        title: "New construction — structure and envelope",
-        description:
-          "On a new building we handle the ground, the foundation, the framing and the full envelope — the shell, closed and weathertight. We work for owners, developers and general contractors.",
+          "We put the house up: the ground, the foundation, the framing, the roof, the envelope, the doors and windows, then all of the interior finishing. Plumbing, electrical and ventilation are trades reserved by law — they are carried out by contractors licensed in those specialties.",
         points: [
           "Excavation, earthwork and foundation",
-          "Wood framing and metalwork",
-          "Insulation, weatherproofing, roofing and exterior cladding",
-          "Doors, windows and interior finishing",
+          "Wood framing and roofing",
+          "Insulation, weatherproofing and exterior cladding",
+          "Doors, windows, cabinets and interior finishing",
         ],
         imageId: "photo-1541888946425-d81bb19240f5",
+      },
+      {
+        title: "Modular homes",
+        description:
+          "The house leaves the factory closed in and insulated. The ground, the foundation, the crane assembly, the sealing of the joints and the finishing all happen on site — and that is exactly what our licence covers, including the prefabricated installation subcategory.",
+        points: [
+          "Site preparation and foundation",
+          "Module placement and anchoring",
+          "Sealing the envelope and roof",
+          "Interior finishing and connections",
+        ],
+        imageId: "photo-1600566753190-17f0baa2a6c3",
+      },
+      {
+        title: "Major renovation and conversion",
+        description:
+          "Stripping a unit or a house back to the structure, then rebuilding the partitions, the insulation, the windows and every finish. This is the job where the breadth of our licence counts most: nearly everything that has to be touched is ours. Residential and commercial alike — we have rebuilt entire units and store interiors.",
+        points: [
+          "Full strip-out back to the framing",
+          "New partitions, insulation and soundproofing",
+          "Kitchens, bathrooms and basements",
+          "Commercial fit-out and renovation",
+        ],
+        imageId: "photo-1600607687939-ce8a6c25118c",
       },
       {
         title: "Building envelope",
@@ -191,18 +204,6 @@ const en: Dictionary = {
           "Metalwork",
         ],
         imageId: "photo-1504307651254-35680f356dfd",
-      },
-      {
-        title: "Modular homes",
-        description:
-          "The house comes out of a factory. The site, the foundation, the assembly, the sealing and the finishing happen here — and that is exactly what our licence covers, including the prefabricated installation subcategory.",
-        points: [
-          "Site preparation and foundation",
-          "Module placement and anchoring",
-          "Sealing the envelope and roof",
-          "Interior finishing and connections",
-        ],
-        imageId: "photo-1600566753190-17f0baa2a6c3",
       },
       {
         title: "Project management",
@@ -318,17 +319,17 @@ const en: Dictionary = {
   },
   about: {
     heroEyebrow: "About",
-    heroTitle: "Built on word of mouth",
+    heroTitle: "A family company",
     heroSubtitle:
-      "A small Greater Montreal company, run by an owner with more than fifteen years on job sites — and one that got this far without ever advertising.",
+      "Founded in 2018 by a tradesman, built without a single advertisement, and taken over today by the next generation — same crew, same standards.",
     storyTitle: "Our story",
     storyParagraphs: [
-      "Habitar Construction is a small company. Behind it is an owner with more than fifteen years of construction experience — new build and renovation, residential and commercial — who is still on the job sites today.",
-      "The company grew without advertising. Every new client came on the recommendation of an old one, which remains the one form of marketing you cannot buy. For years our energy went into the result and the client's satisfaction rather than our own shop window — which is why we have more finished job sites behind us than photographs of them.",
-      "Today Habitar is ready to take on more work. This site is part of that: it is the first time we have taken the time to describe what we do.",
+      "Habitar Construction is a family company. It was built by a tradesman with more than fifteen years on job sites who, for years, did all of it himself: the estimating, the work, the follow-up with clients.",
+      "The company has been registered since April 2018 and has never advertised. Every new client came on the recommendation of an earlier one, which remains the one form of marketing you cannot buy. Our energy went into the result and the client's satisfaction rather than our own shop window — which is why we have more finished job sites behind us than photographs of them.",
+      "Today the next generation has stepped in. Site management has passed to a construction project manager trained on large Montreal job sites, while the founder stays in the background to advise. That is what lets Habitar take on more ambitious work than before, with the same standards on the build and a tighter grip on the budget.",
       "The company is incorporated as 9377-7720 Québec inc. and holds RBQ licence 5763-1392-01. What sets us apart is the breadth of that licence: where many companies hold one or two subcategories, ours covers fourteen — from excavation and small concrete works through to cabinetry and finishing, by way of framing, roofing, exterior cladding, doors and windows.",
-      "In practice that means fewer subcontractors to coordinate on your site, less waiting between trades, and one person to ask. Reserved trades — plumbing, electrical, ventilation — are entrusted to contractors licensed in their own specialty, as the law requires.",
-      "The owner is a construction project manager. That is what explains how our sites are kept: a budget built line by line before the first hammer swing, a written schedule, and every hour worked and every purchase recorded against the project file — not estimated at the end.",
+      "In practice that means fewer subcontractors to coordinate on your site, less waiting between trades, and one person to ask. Reserved trades — plumbing, electrical, ventilation — are carried out by contractors licensed in their own specialty, as the law requires.",
+      "What a project manager brings is how the site is kept: a budget built line by line before the first hammer swing, a written schedule, and every hour worked and every purchase recorded against the project file — not estimated at the end.",
     ],
     badgeValue: "14",
     badgeLabel: "authorized RBQ subcategories",

@@ -16,7 +16,7 @@ import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import { img } from "@/lib/images";
 
-const icons: LucideIcon[] = [Hammer, Home, Layers, Shovel, Boxes, ClipboardList];
+const icons: LucideIcon[] = [Home, Boxes, Hammer, Layers, Shovel, ClipboardList];
 
 export function ServiceDetail({
   locale,

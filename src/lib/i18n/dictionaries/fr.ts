@@ -69,6 +69,7 @@ const fr: Dictionary = {
       "Portes et fenêtres",
       "Armoires et comptoirs",
       "Maisons modulaires",
+      "Entreprise familiale depuis 2018",
       "Recommandé de bouche à oreille",
       "Soumission gratuite",
     ],
@@ -86,7 +87,7 @@ const fr: Dictionary = {
     servicesEyebrow: "Ce que nous faisons",
     servicesTitle: "Six volets, une seule licence",
     servicesSubtitle:
-      "Rénovation mineure et majeure, construction neuve, enveloppe, travaux extérieurs, maisons modulaires et gestion de projet — sous le même numéro de licence.",
+      "Construction neuve, maisons modulaires et rénovation majeure — plus l'enveloppe, les travaux extérieurs et la gestion de projet, sous le même numéro de licence.",
     whyEyebrow: "Pourquoi Habitar",
     whyTitle: "Moins d'intervenants, moins de zones grises",
     whySubtitle:
@@ -154,31 +155,43 @@ const fr: Dictionary = {
     heroEyebrow: "Nos services",
     heroTitle: "Du terrain nu au dernier coup de pinceau",
     heroSubtitle:
-      "Rénovation mineure et majeure, structure et enveloppe de constructions neuves, travaux extérieurs, maisons modulaires et gestion de projet — quatorze sous-catégories RBQ sous un seul numéro de licence.",
+      "Construction neuve, maisons modulaires et rénovation majeure — plus l'enveloppe, les travaux extérieurs et la gestion de projet. Quatorze sous-catégories RBQ sous un seul numéro de licence.",
     list: [
       {
-        title: "Rénovation résidentielle — mineure et majeure",
+        title: "Construction neuve",
         description:
-          "D'une salle de bain à la reconstruction complète de l'intérieur d'une maison. Démolition, réaménagement des espaces, nouvelle charpente intérieure, enveloppe, finition : la licence couvre chaque métier qu'une rénovation majeure demande.",
-        points: [
-          "Cuisines, salles de bain et sous-sols",
-          "Réaménagement complet, démolition et reconstruction intérieure",
-          "Céramique, marbre, armoires et comptoirs usinés",
-          "Portes, fenêtres et travaux de finition",
-        ],
-        imageId: "photo-1600607687939-ce8a6c25118c",
-      },
-      {
-        title: "Construction neuve — structure et enveloppe",
-        description:
-          "Sur un bâtiment neuf, nous exécutons le terrain, la fondation, la charpente et l'enveloppe complète — la coquille close et étanche. Nous travaillons pour des propriétaires, des promoteurs ou des entrepreneurs généraux.",
+          "Nous montons la maison : le terrain, la fondation, la charpente, le toit, l'enveloppe, les portes et fenêtres, puis toute la finition intérieure. La plomberie, l'électricité et la ventilation sont des métiers réservés par la loi — elles sont exécutées par des entrepreneurs licenciés dans ces spécialités.",
         points: [
           "Excavation, terrassement et fondation",
-          "Charpente de bois et ouvrages métalliques",
-          "Isolation, étanchéité, couverture et revêtement extérieur",
-          "Portes, fenêtres et finition intérieure",
+          "Charpente de bois et toiture",
+          "Isolation, étanchéité et revêtement extérieur",
+          "Portes, fenêtres, armoires et finition intérieure",
         ],
         imageId: "photo-1541888946425-d81bb19240f5",
+      },
+      {
+        title: "Maisons modulaires",
+        description:
+          "La maison sort de l'usine, close et isolée. Le terrain, la fondation, l'assemblage à la grue, le scellement des jonctions et la finition se font sur place — et c'est exactement ce que couvre notre licence, y compris la sous-catégorie des installations préfabriquées.",
+        points: [
+          "Préparation du terrain et fondation",
+          "Assemblage et ancrage des modules",
+          "Scellement de l'enveloppe et de la toiture",
+          "Finition intérieure et raccords",
+        ],
+        imageId: "photo-1600566753190-17f0baa2a6c3",
+      },
+      {
+        title: "Rénovation majeure et transformation",
+        description:
+          "Vider un logement ou une maison jusqu'à la structure, refaire les divisions, l'isolation, les fenêtres et toute la finition. C'est le chantier où l'étendue de notre licence compte le plus : presque tout ce qu'il faut toucher relève de nous. Résidentiel comme commercial — nous avons refait des logements complets comme des intérieurs de commerces.",
+        points: [
+          "Décapage complet jusqu'à la charpente",
+          "Nouvelles divisions, isolation et insonorisation",
+          "Cuisines, salles de bain et sous-sols",
+          "Aménagement et rénovation de locaux commerciaux",
+        ],
+        imageId: "photo-1600607687939-ce8a6c25118c",
       },
       {
         title: "Enveloppe du bâtiment",
@@ -203,18 +216,6 @@ const fr: Dictionary = {
           "Ouvrages métalliques",
         ],
         imageId: "photo-1504307651254-35680f356dfd",
-      },
-      {
-        title: "Maisons modulaires",
-        description:
-          "La maison sort de l'usine. Le terrain, la fondation, l'assemblage, le scellement et la finition se font sur place — et c'est exactement ce que couvre notre licence, y compris la sous-catégorie des installations préfabriquées.",
-        points: [
-          "Préparation du terrain et fondation",
-          "Assemblage et ancrage des modules",
-          "Scellement de l'enveloppe et de la toiture",
-          "Finition intérieure et raccords",
-        ],
-        imageId: "photo-1600566753190-17f0baa2a6c3",
       },
       {
         title: "Gestion de projet",
@@ -330,17 +331,17 @@ const fr: Dictionary = {
   },
   about: {
     heroEyebrow: "À propos",
-    heroTitle: "Bâtie par le bouche-à-oreille",
+    heroTitle: "Une entreprise de famille",
     heroSubtitle:
-      "Une entreprise à taille humaine du Grand Montréal, dirigée par un propriétaire qui cumule plus de quinze ans de chantier — et qui a grandi jusqu'ici sans jamais faire de publicité.",
+      "Fondée en 2018 par un homme de métier, bâtie sans une seule publicité, et reprise aujourd'hui par la génération suivante — avec le même monde et les mêmes exigences.",
     storyTitle: "Notre histoire",
     storyParagraphs: [
-      "Habitar Construction est une entreprise à taille humaine. Derrière elle, un propriétaire qui cumule plus de quinze ans d'expérience en construction — du neuf comme de la rénovation, au résidentiel comme au commercial — et qui est encore sur les chantiers aujourd'hui.",
-      "L'entreprise s'est bâtie sans publicité. Chaque nouveau client est venu par la recommandation d'un ancien, ce qui reste la seule forme de marketing qui ne s'achète pas. Pendant des années, notre énergie est allée au résultat et à la satisfaction du client plutôt qu'à notre propre vitrine — c'est pour ça que nous avons plus de chantiers derrière nous que de photos.",
-      "Aujourd'hui, Habitar est prête à prendre plus de projets. Ce site en fait partie : c'est la première fois que nous prenons le temps de raconter ce que nous faisons.",
+      "Habitar Construction est une entreprise familiale. Elle a été bâtie par un homme de métier qui cumule plus de quinze ans de chantier et qui, pendant des années, a tout fait lui-même : l'estimation, le travail, le suivi des clients.",
+      "L'entreprise est immatriculée depuis avril 2018 et n'a jamais fait de publicité. Chaque nouveau client est venu par la recommandation d'un ancien, ce qui reste la seule forme de marketing qui ne s'achète pas. Notre énergie est allée au résultat et à la satisfaction du client plutôt qu'à notre propre vitrine — c'est pour ça que nous avons plus de chantiers derrière nous que de photos.",
+      "Aujourd'hui, la relève est arrivée. La direction des chantiers est passée à un chargé de projet en construction, formé sur de grands chantiers montréalais ; le fondateur reste en retrait, pour conseiller. C'est ce qui permet à Habitar de prendre des projets plus ambitieux qu'avant, avec la même exigence sur le travail et un suivi plus serré sur le budget.",
       "L'entreprise est constituée sous le nom de 9377-7720 Québec inc. et détient la licence RBQ 5763-1392-01. Notre particularité tient à l'étendue de cette licence : là où beaucoup d'entreprises détiennent une ou deux sous-catégories, la nôtre en couvre quatorze — de l'excavation et des petits ouvrages de béton jusqu'aux armoires et aux travaux de finition, en passant par la charpente, la toiture, le revêtement extérieur, les portes et les fenêtres.",
-      "Concrètement, cela veut dire moins de sous-traitants à coordonner sur votre chantier, moins de délais entre les corps de métier, et une seule personne à qui poser vos questions. Les métiers réservés — plomberie, électricité, ventilation — sont confiés à des entrepreneurs licenciés dans leur spécialité, comme la loi l'exige.",
-      "Le propriétaire est chargé de projet en construction. C'est ce qui explique la façon dont nos chantiers sont tenus : un budget monté poste par poste avant le premier coup de marteau, un échéancier écrit, et chaque heure travaillée comme chaque achat consignés au dossier du projet — pas estimés à la fin.",
+      "Concrètement, cela veut dire moins de sous-traitants à coordonner sur votre chantier, moins de délais entre les corps de métier, et une seule personne à qui poser vos questions. Les métiers réservés — plomberie, électricité, ventilation — sont faits par des entrepreneurs licenciés dans leur spécialité, comme la loi l'exige.",
+      "Ce qu'un chargé de projet apporte, c'est la tenue du chantier : un budget monté poste par poste avant le premier coup de marteau, un échéancier écrit, et chaque heure travaillée comme chaque achat consignés au dossier du projet — pas estimés à la fin.",
     ],
     badgeValue: "14",
     badgeLabel: "sous-catégories RBQ autorisées",

@@ -8,9 +8,9 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
 import { img } from "@/lib/images";
 
-// Un icone par service, dans l ordre du dictionnaire : renovation, neuf,
-// enveloppe, terrain, modulaire, gestion de projet.
-const icons = [Hammer, Home, Layers, Shovel, Boxes, ClipboardList];
+// Un icone par service, dans l ordre du dictionnaire : neuf, modulaire,
+// renovation majeure, enveloppe, terrain, gestion de projet.
+const icons = [Home, Boxes, Hammer, Layers, Shovel, ClipboardList];
 
 export function ServicesOverview({
   locale,
