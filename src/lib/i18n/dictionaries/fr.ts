@@ -80,9 +80,9 @@ const fr: Dictionary = {
       { value: "Finition", label: "céramique, marbre, armoires, comptoirs et finition" },
     ],
     servicesEyebrow: "Ce que nous faisons",
-    servicesTitle: "Quatre volets, une seule licence",
+    servicesTitle: "Six volets, une seule licence",
     servicesSubtitle:
-      "Rénovation, enveloppe du bâtiment, travaux extérieurs et maisons modulaires — exécutés par la même équipe, sous le même numéro de licence.",
+      "Rénovation mineure et majeure, construction neuve, enveloppe, travaux extérieurs, maisons modulaires et gestion de projet — sous le même numéro de licence.",
     whyEyebrow: "Pourquoi Habitar",
     whyTitle: "Moins d'intervenants, moins de zones grises",
     whySubtitle:
@@ -148,26 +148,38 @@ const fr: Dictionary = {
   },
   services: {
     heroEyebrow: "Nos services",
-    heroTitle: "Ce que notre licence nous permet de faire",
+    heroTitle: "Du terrain nu au dernier coup de pinceau",
     heroSubtitle:
-      "Quatorze sous-catégories RBQ couvrant le terrain, la structure, l'enveloppe et la finition — plus l'assemblage de maisons modulaires livrées en usine.",
+      "Rénovation mineure et majeure, structure et enveloppe de constructions neuves, travaux extérieurs, maisons modulaires et gestion de projet — quatorze sous-catégories RBQ sous un seul numéro de licence.",
     list: [
       {
-        title: "Rénovation résidentielle",
+        title: "Rénovation résidentielle — mineure et majeure",
         description:
-          "Cuisines, salles de bain, sous-sols et réaménagements complets. C'est le cœur de notre travail quotidien, et la licence couvre chaque métier qu'un tel chantier demande.",
+          "D'une salle de bain à la reconstruction complète de l'intérieur d'une maison. Démolition, réaménagement des espaces, nouvelle charpente intérieure, enveloppe, finition : la licence couvre chaque métier qu'une rénovation majeure demande.",
         points: [
           "Cuisines, salles de bain et sous-sols",
-          "Céramique, marbre et maçonnerie non structurale",
-          "Armoires et comptoirs usinés",
-          "Travaux de finition, portes et fenêtres",
+          "Réaménagement complet, démolition et reconstruction intérieure",
+          "Céramique, marbre, armoires et comptoirs usinés",
+          "Portes, fenêtres et travaux de finition",
         ],
         imageId: "photo-1600607687939-ce8a6c25118c",
       },
       {
+        title: "Construction neuve — structure et enveloppe",
+        description:
+          "Sur un bâtiment neuf, nous exécutons le terrain, la fondation, la charpente et l'enveloppe complète — la coquille close et étanche. Nous travaillons pour des propriétaires, des promoteurs ou des entrepreneurs généraux.",
+        points: [
+          "Excavation, terrassement et fondation",
+          "Charpente de bois et ouvrages métalliques",
+          "Isolation, étanchéité, couverture et revêtement extérieur",
+          "Portes, fenêtres et finition intérieure",
+        ],
+        imageId: "photo-1541888946425-d81bb19240f5",
+      },
+      {
         title: "Enveloppe du bâtiment",
         description:
-          "Tout ce qui sépare l'intérieur du climat québécois : la toiture, l'isolation, l'étanchéité et le revêtement extérieur relèvent d'une seule et même sous-catégorie de notre licence.",
+          "Tout ce qui sépare l'intérieur du climat québécois. Toiture, isolation, étanchéité et revêtement extérieur relèvent d'une seule et même sous-catégorie de notre licence — celle qui décide de la facture de chauffage et de la durée de vie du bâtiment.",
         points: [
           "Couverture et étanchéité",
           "Isolation et pare-air",
@@ -177,16 +189,16 @@ const fr: Dictionary = {
         imageId: "photo-1600585154340-be6161a56a0c",
       },
       {
-        title: "Travaux extérieurs et structure",
+        title: "Travaux extérieurs et fondation",
         description:
-          "Du terrain nu à la charpente montée : excavation, nivellement, dalles et fondations légères, puis la structure de bois et les ouvrages métalliques.",
+          "Le terrain avant le bâtiment : creuser, niveler, drainer, puis couler les semelles, la dalle ou la fondation légère qui recevront la structure.",
         points: [
           "Excavation, terrassement et travaux d'emplacement",
           "Petits ouvrages de béton — dalles, semelles, fondations légères",
-          "Charpentes de bois",
+          "Nivellement et drainage",
           "Ouvrages métalliques",
         ],
-        imageId: "photo-1541888946425-d81bb19240f5",
+        imageId: "photo-1504307651254-35680f356dfd",
       },
       {
         title: "Maisons modulaires",
@@ -199,6 +211,18 @@ const fr: Dictionary = {
           "Finition intérieure et raccords",
         ],
         imageId: "photo-1600566753190-17f0baa2a6c3",
+      },
+      {
+        title: "Gestion de projet",
+        description:
+          "Un chantier, ce sont dix métiers qui doivent arriver dans le bon ordre. Nous montons le budget, bâtissons l'échéancier, coordonnons les corps de métier et suivons l'avancement — pendant que vous gardez la maîtrise de vos contrats avec chaque entrepreneur.",
+        points: [
+          "Estimation et budget détaillé poste par poste",
+          "Échéancier et séquence des corps de métier",
+          "Coordination de chantier et suivi d'avancement",
+          "Contrôle des coûts : chaque heure et chaque achat au dossier",
+        ],
+        imageId: "photo-1503387762-592deb58ef4e",
       },
     ],
     ctaTitle: "Un projet en tête ?",
@@ -310,6 +334,7 @@ const fr: Dictionary = {
       "Habitar Construction exécute des travaux de rénovation et de construction résidentielle dans le Grand Montréal. L'entreprise est constituée sous le nom de 9377-7720 Québec inc. et détient la licence RBQ 5763-1392-01.",
       "Notre particularité tient à l'étendue de cette licence. Là où beaucoup d'entreprises détiennent une ou deux sous-catégories, la nôtre en couvre quatorze — de l'excavation et des petits ouvrages de béton jusqu'aux armoires et aux travaux de finition, en passant par la charpente, la toiture, le revêtement extérieur, les portes et les fenêtres.",
       "Concrètement, cela veut dire moins de sous-traitants à coordonner sur votre chantier, moins de délais entre les corps de métier, et une seule personne à qui poser vos questions. Les métiers réservés — plomberie, électricité, ventilation — sont confiés à des entrepreneurs licenciés dans leur spécialité, comme la loi l'exige.",
+      "L'entreprise est dirigée par un chargé de projet en construction. C'est ce qui explique la façon dont nos chantiers sont tenus : un budget monté poste par poste avant le premier coup de marteau, un échéancier écrit, et chaque heure travaillée comme chaque achat consignés au dossier du projet — pas estimés à la fin.",
     ],
     badgeValue: "14",
     badgeLabel: "sous-catégories RBQ autorisées",
@@ -388,9 +413,11 @@ const fr: Dictionary = {
       emailSubject: "Demande de soumission — Habitar Construction",
     },
     projectTypes: [
-      "Rénovation résidentielle",
+      "Rénovation résidentielle — mineure ou majeure",
+      "Construction neuve — structure et enveloppe",
       "Enveloppe du bâtiment — toiture, revêtement, fenêtres",
       "Travaux extérieurs, excavation et fondation",
+      "Gestion de projet",
       "Maison modulaire",
       "Autre",
     ],

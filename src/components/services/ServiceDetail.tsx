@@ -2,6 +2,8 @@ import Image from "next/image";
 import {
   CheckCircle2,
   Boxes,
+  ClipboardList,
+  Layers,
   Home,
   Hammer,
   Shovel,
@@ -14,7 +16,7 @@ import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import { img } from "@/lib/images";
 
-const icons: LucideIcon[] = [Hammer, Home, Shovel, Boxes];
+const icons: LucideIcon[] = [Hammer, Home, Layers, Shovel, Boxes, ClipboardList];
 
 export function ServiceDetail({
   locale,

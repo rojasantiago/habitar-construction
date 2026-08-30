@@ -8,12 +8,9 @@ import { Logo } from "@/components/ui/Logo";
 export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   const year = new Date().getFullYear();
 
-  const serviceLinks = [
-    dict.services.list[0].title,
-    dict.services.list[1].title,
-    dict.services.list[2].title,
-    dict.services.list[3].title,
-  ];
+  // Derived from the list rather than indexed by hand, so adding a service
+  // never leaves the footer silently short or crashes on a missing entry.
+  const serviceLinks = dict.services.list.map((service) => service.title);
 
   const companyLinks = [
     { href: `/${locale}/about`, label: dict.nav.about },

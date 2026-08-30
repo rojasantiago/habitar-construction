@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Hammer, Home, Shovel, Boxes, ArrowUpRight } from "lucide-react";
+import { Hammer, Home, Layers, Shovel, Boxes, ClipboardList, ArrowUpRight } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/types";
 import { Container } from "@/components/ui/Container";
@@ -8,8 +8,9 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
 import { img } from "@/lib/images";
 
-// Un icone par service : reno, enveloppe, terrain, modulaire.
-const icons = [Hammer, Home, Shovel, Boxes];
+// Un icone par service, dans l ordre du dictionnaire : renovation, neuf,
+// enveloppe, terrain, modulaire, gestion de projet.
+const icons = [Hammer, Home, Layers, Shovel, Boxes, ClipboardList];
 
 export function ServicesOverview({
   locale,

@@ -71,9 +71,9 @@ const en: Dictionary = {
       { value: "Finishing", label: "ceramic, marble, cabinets, countertops and finishing" },
     ],
     servicesEyebrow: "What we do",
-    servicesTitle: "Four areas, one licence",
+    servicesTitle: "Six areas, one licence",
     servicesSubtitle:
-      "Renovation, building envelope, site and structural work, and modular homes — carried out by the same crew, under the same licence number.",
+      "Minor and major renovation, new construction, envelope, site work, modular homes and project management — under the same licence number.",
     whyEyebrow: "Why Habitar",
     whyTitle: "Fewer hands, fewer grey areas",
     whySubtitle:
@@ -139,26 +139,38 @@ const en: Dictionary = {
   },
   services: {
     heroEyebrow: "Our services",
-    heroTitle: "What our licence lets us do",
+    heroTitle: "From bare ground to the last coat of paint",
     heroSubtitle:
-      "Fourteen RBQ subcategories covering the site, the structure, the envelope and the finishing — plus the assembly of factory-built modular homes.",
+      "Minor and major renovation, structure and envelope on new builds, site work, modular homes and project management — fourteen RBQ subcategories under a single licence number.",
     list: [
       {
-        title: "Residential renovation",
+        title: "Residential renovation — minor and major",
         description:
-          "Kitchens, bathrooms, basements and full reconfigurations. This is our daily work, and the licence covers every trade such a job requires.",
+          "From a single bathroom to rebuilding the entire interior of a house. Demolition, reconfiguring the layout, new interior framing, envelope, finishing: the licence covers every trade a major renovation calls for.",
         points: [
           "Kitchens, bathrooms and basements",
-          "Ceramic, marble and non-structural masonry",
-          "Factory-made cabinets and countertops",
-          "Finishing work, doors and windows",
+          "Full reconfiguration, demolition and interior rebuild",
+          "Ceramic, marble, factory-made cabinets and countertops",
+          "Doors, windows and finishing work",
         ],
         imageId: "photo-1600607687939-ce8a6c25118c",
       },
       {
+        title: "New construction — structure and envelope",
+        description:
+          "On a new building we handle the ground, the foundation, the framing and the full envelope — the shell, closed and weathertight. We work for owners, developers and general contractors.",
+        points: [
+          "Excavation, earthwork and foundation",
+          "Wood framing and metalwork",
+          "Insulation, weatherproofing, roofing and exterior cladding",
+          "Doors, windows and interior finishing",
+        ],
+        imageId: "photo-1541888946425-d81bb19240f5",
+      },
+      {
         title: "Building envelope",
         description:
-          "Everything standing between the interior and the Quebec climate: roofing, insulation, weatherproofing and exterior cladding all fall under a single subcategory of our licence.",
+          "Everything standing between the interior and the Quebec climate. Roofing, insulation, weatherproofing and cladding fall under a single subcategory of our licence — the one that decides the heating bill and how long the building lasts.",
         points: [
           "Roofing and weatherproofing",
           "Insulation and air barriers",
@@ -168,16 +180,16 @@ const en: Dictionary = {
         imageId: "photo-1600585154340-be6161a56a0c",
       },
       {
-        title: "Site and structural work",
+        title: "Site work and foundation",
         description:
-          "From bare ground to a standing frame: excavation, grading, slabs and light foundations, then the wood structure and metalwork.",
+          "The ground before the building: digging, grading, draining, then pouring the footings, slab or light foundation that will carry the structure.",
         points: [
           "Excavation, earthwork and site preparation",
           "Small concrete works — slabs, footings, light foundations",
-          "Wood framing",
+          "Grading and drainage",
           "Metalwork",
         ],
-        imageId: "photo-1541888946425-d81bb19240f5",
+        imageId: "photo-1504307651254-35680f356dfd",
       },
       {
         title: "Modular homes",
@@ -190,6 +202,18 @@ const en: Dictionary = {
           "Interior finishing and connections",
         ],
         imageId: "photo-1600566753190-17f0baa2a6c3",
+      },
+      {
+        title: "Project management",
+        description:
+          "A job site is ten trades that have to arrive in the right order. We build the budget, set the schedule, coordinate the trades and track progress — while you keep your own contract with each contractor.",
+        points: [
+          "Estimating and a line-by-line budget",
+          "Schedule and trade sequencing",
+          "Site coordination and progress reporting",
+          "Cost control: every hour and every purchase on file",
+        ],
+        imageId: "photo-1503387762-592deb58ef4e",
       },
     ],
     ctaTitle: "Have a project in mind?",
@@ -301,6 +325,7 @@ const en: Dictionary = {
       "Habitar Construction carries out renovation and residential construction work across Greater Montreal. The company is incorporated as 9377-7720 Québec inc. and holds RBQ licence 5763-1392-01.",
       "What sets us apart is the breadth of that licence. Where many companies hold one or two subcategories, ours covers fourteen — from excavation and small concrete works through to cabinetry and finishing, by way of framing, roofing, exterior cladding, doors and windows.",
       "In practice that means fewer subcontractors to coordinate on your site, less waiting between trades, and one person to ask. Reserved trades — plumbing, electrical, ventilation — are entrusted to contractors licensed in their own specialty, as the law requires.",
+      "The company is run by a construction project manager. That is what explains how our sites are kept: a budget built line by line before the first hammer swing, a written schedule, and every hour worked and every purchase recorded against the project file — not estimated at the end.",
     ],
     badgeValue: "14",
     badgeLabel: "authorized RBQ subcategories",
@@ -379,9 +404,11 @@ const en: Dictionary = {
       emailSubject: "Estimate request — Habitar Construction",
     },
     projectTypes: [
-      "Residential renovation",
+      "Residential renovation — minor or major",
+      "New construction — structure and envelope",
       "Building envelope — roofing, cladding, windows",
       "Site work, excavation and foundation",
+      "Project management",
       "Modular home",
       "Other",
     ],
