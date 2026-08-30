@@ -60,6 +60,7 @@ const en: Dictionary = {
       "Doors and windows",
       "Cabinets and countertops",
       "Modular homes",
+      "Recommended by word of mouth",
       "Free estimate",
     ],
     badgeValue: "14",
@@ -87,7 +88,7 @@ const en: Dictionary = {
       {
         title: "One person accountable",
         description:
-          "You don't referee between trades. One person answers for the schedule, the budget and the quality, from the first shovel to the last touch-up.",
+          "You don't referee between trades, and you don't explain your project to three different people. The owner is on site and answers personally for the schedule, the budget and the quality, from the first shovel to the last touch-up.",
       },
       {
         title: "A written price",
@@ -304,28 +305,30 @@ const en: Dictionary = {
   projects: {
     heroEyebrow: "Our work",
     heroTitle: "Our projects",
-    heroSubtitle: "The jobs we've delivered, in photos.",
+    heroSubtitle: "Our projects, and why there are more of them than photos.",
     filterAll: "All",
     // Empty until photographs of real job sites are added here. No stock
     // photograph will ever be presented as our own work.
     items: [],
-    emptyTitle: "Our job-site photos are coming",
+    emptyTitle: "Few photos, plenty of job sites",
     emptyBody:
-      "We'd rather show an empty page than stock images passed off as our work. Photographs of our recent projects are being prepared. In the meantime, call us — we'll gladly talk through projects comparable to yours.",
+      "Habitar was built on word of mouth. For years our energy went into the result and the client's satisfaction rather than our own shop window — so we have collected finished job sites a good deal faster than photographs. We're catching up, and this page will fill. In the meantime, call us: we'll talk you through projects comparable to yours, and we can put you in touch with clients we've worked for.",
     ctaTitle: "Your project could be next",
     ctaSubtitle: "Let's discuss your vision and see how we can build it.",
   },
   about: {
     heroEyebrow: "About",
-    heroTitle: "A broad licence, one crew",
+    heroTitle: "Built on word of mouth",
     heroSubtitle:
-      "Habitar Construction is a Greater Montreal construction company holding a Régie du bâtiment du Québec licence covering fourteen subcategories of work.",
-    storyTitle: "Our approach",
+      "A small Greater Montreal company, run by an owner with more than fifteen years on job sites — and one that got this far without ever advertising.",
+    storyTitle: "Our story",
     storyParagraphs: [
-      "Habitar Construction carries out renovation and residential construction work across Greater Montreal. The company is incorporated as 9377-7720 Québec inc. and holds RBQ licence 5763-1392-01.",
-      "What sets us apart is the breadth of that licence. Where many companies hold one or two subcategories, ours covers fourteen — from excavation and small concrete works through to cabinetry and finishing, by way of framing, roofing, exterior cladding, doors and windows.",
+      "Habitar Construction is a small company. Behind it is an owner with more than fifteen years of construction experience — new build and renovation, residential and commercial — who is still on the job sites today.",
+      "The company grew without advertising. Every new client came on the recommendation of an old one, which remains the one form of marketing you cannot buy. For years our energy went into the result and the client's satisfaction rather than our own shop window — which is why we have more finished job sites behind us than photographs of them.",
+      "Today Habitar is ready to take on more work. This site is part of that: it is the first time we have taken the time to describe what we do.",
+      "The company is incorporated as 9377-7720 Québec inc. and holds RBQ licence 5763-1392-01. What sets us apart is the breadth of that licence: where many companies hold one or two subcategories, ours covers fourteen — from excavation and small concrete works through to cabinetry and finishing, by way of framing, roofing, exterior cladding, doors and windows.",
       "In practice that means fewer subcontractors to coordinate on your site, less waiting between trades, and one person to ask. Reserved trades — plumbing, electrical, ventilation — are entrusted to contractors licensed in their own specialty, as the law requires.",
-      "The company is run by a construction project manager. That is what explains how our sites are kept: a budget built line by line before the first hammer swing, a written schedule, and every hour worked and every purchase recorded against the project file — not estimated at the end.",
+      "The owner is a construction project manager. That is what explains how our sites are kept: a budget built line by line before the first hammer swing, a written schedule, and every hour worked and every purchase recorded against the project file — not estimated at the end.",
     ],
     badgeValue: "14",
     badgeLabel: "authorized RBQ subcategories",

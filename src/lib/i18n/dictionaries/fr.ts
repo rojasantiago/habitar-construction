@@ -4,12 +4,15 @@ import type { Dictionary } from "../types";
  * Tout ce qui est affirmé ici doit être vérifiable.
  *
  * Le site s'appuie sur la licence RBQ 5763-1392-01 et ses quatorze
- * sous-catégories, transcrites dans les termes exacts de la Régie. Aucun
- * chiffre d'expérience, aucun témoignage et aucune adhésion ne sont avancés
- * tant qu'ils ne peuvent pas être prouvés : la Loi sur la protection du
- * consommateur juge l'impression générale que dégage une page, pas seulement
- * ses mots. Le titre « entrepreneur général » n'apparaît nulle part tant que
- * la Régie ne l'a pas délivré.
+ * sous-catégories, transcrites dans les termes exacts de la Régie. La Loi sur
+ * la protection du consommateur juge l'impression générale que dégage une
+ * page, pas seulement ses mots, alors le titre « entrepreneur général »
+ * n'apparaît nulle part tant que la Régie ne l'a pas délivré.
+ *
+ * Les quinze ans d'expérience appartiennent au propriétaire, pas à
+ * l'entreprise, et le texte le dit chaque fois. C'est la nuance qui sépare un
+ * fait vérifiable d'une fausse ancienneté. Aucun témoignage ni aucune
+ * adhésion n'est avancé tant qu'il ne peut pas être prouvé.
  */
 const fr: Dictionary = {
   meta: {
@@ -66,6 +69,7 @@ const fr: Dictionary = {
       "Portes et fenêtres",
       "Armoires et comptoirs",
       "Maisons modulaires",
+      "Recommandé de bouche à oreille",
       "Soumission gratuite",
     ],
     badgeValue: "14",
@@ -96,7 +100,7 @@ const fr: Dictionary = {
       {
         title: "Un seul responsable",
         description:
-          "Vous n'arbitrez pas entre corps de métier. Une personne répond de l'échéancier, du budget et de la qualité, du premier coup de pelle à la dernière retouche.",
+          "Vous n'arbitrez pas entre corps de métier, et vous ne racontez pas votre projet à trois personnes différentes. Le propriétaire est sur le chantier et répond lui-même de l'échéancier, du budget et de la qualité, du premier coup de pelle à la dernière retouche.",
       },
       {
         title: "Un prix écrit",
@@ -313,28 +317,30 @@ const fr: Dictionary = {
   projects: {
     heroEyebrow: "Nos réalisations",
     heroTitle: "Nos chantiers",
-    heroSubtitle: "Les projets que nous avons menés, en photos.",
+    heroSubtitle: "Nos chantiers, et pourquoi il y en a plus que de photos.",
     filterAll: "Tous",
     // Vide tant que les photos des chantiers réels ne sont pas versées ici.
     // Aucune image de banque ne sera présentée comme une réalisation.
     items: [],
-    emptyTitle: "Nos photos de chantier arrivent",
+    emptyTitle: "Peu de photos, beaucoup de chantiers",
     emptyBody:
-      "Nous préférons une page vide à des images de banque présentées comme nos réalisations. Les photos de nos chantiers récents sont en préparation. D'ici là, appelez-nous : nous vous parlerons volontiers de projets comparables au vôtre.",
+      "Habitar s'est bâtie par le bouche-à-oreille. Pendant des années, notre énergie est allée au résultat et à la satisfaction du client plutôt qu'à notre propre vitrine — nous avons donc accumulé les chantiers terminés bien plus vite que les photos. Nous rattrapons ce retard et cette page se remplira. D'ici là, appelez-nous : nous vous parlerons de projets comparables au vôtre, et nous pouvons vous mettre en contact avec des clients que nous avons servis.",
     ctaTitle: "Votre projet pourrait être le prochain",
     ctaSubtitle: "Discutons de votre vision et voyons comment nous pouvons la concrétiser.",
   },
   about: {
     heroEyebrow: "À propos",
-    heroTitle: "Une licence large, une seule équipe",
+    heroTitle: "Bâtie par le bouche-à-oreille",
     heroSubtitle:
-      "Habitar Construction est une entreprise de construction du Grand Montréal, titulaire d'une licence de la Régie du bâtiment du Québec couvrant quatorze sous-catégories de travaux.",
-    storyTitle: "Notre approche",
+      "Une entreprise à taille humaine du Grand Montréal, dirigée par un propriétaire qui cumule plus de quinze ans de chantier — et qui a grandi jusqu'ici sans jamais faire de publicité.",
+    storyTitle: "Notre histoire",
     storyParagraphs: [
-      "Habitar Construction exécute des travaux de rénovation et de construction résidentielle dans le Grand Montréal. L'entreprise est constituée sous le nom de 9377-7720 Québec inc. et détient la licence RBQ 5763-1392-01.",
-      "Notre particularité tient à l'étendue de cette licence. Là où beaucoup d'entreprises détiennent une ou deux sous-catégories, la nôtre en couvre quatorze — de l'excavation et des petits ouvrages de béton jusqu'aux armoires et aux travaux de finition, en passant par la charpente, la toiture, le revêtement extérieur, les portes et les fenêtres.",
+      "Habitar Construction est une entreprise à taille humaine. Derrière elle, un propriétaire qui cumule plus de quinze ans d'expérience en construction — du neuf comme de la rénovation, au résidentiel comme au commercial — et qui est encore sur les chantiers aujourd'hui.",
+      "L'entreprise s'est bâtie sans publicité. Chaque nouveau client est venu par la recommandation d'un ancien, ce qui reste la seule forme de marketing qui ne s'achète pas. Pendant des années, notre énergie est allée au résultat et à la satisfaction du client plutôt qu'à notre propre vitrine — c'est pour ça que nous avons plus de chantiers derrière nous que de photos.",
+      "Aujourd'hui, Habitar est prête à prendre plus de projets. Ce site en fait partie : c'est la première fois que nous prenons le temps de raconter ce que nous faisons.",
+      "L'entreprise est constituée sous le nom de 9377-7720 Québec inc. et détient la licence RBQ 5763-1392-01. Notre particularité tient à l'étendue de cette licence : là où beaucoup d'entreprises détiennent une ou deux sous-catégories, la nôtre en couvre quatorze — de l'excavation et des petits ouvrages de béton jusqu'aux armoires et aux travaux de finition, en passant par la charpente, la toiture, le revêtement extérieur, les portes et les fenêtres.",
       "Concrètement, cela veut dire moins de sous-traitants à coordonner sur votre chantier, moins de délais entre les corps de métier, et une seule personne à qui poser vos questions. Les métiers réservés — plomberie, électricité, ventilation — sont confiés à des entrepreneurs licenciés dans leur spécialité, comme la loi l'exige.",
-      "L'entreprise est dirigée par un chargé de projet en construction. C'est ce qui explique la façon dont nos chantiers sont tenus : un budget monté poste par poste avant le premier coup de marteau, un échéancier écrit, et chaque heure travaillée comme chaque achat consignés au dossier du projet — pas estimés à la fin.",
+      "Le propriétaire est chargé de projet en construction. C'est ce qui explique la façon dont nos chantiers sont tenus : un budget monté poste par poste avant le premier coup de marteau, un échéancier écrit, et chaque heure travaillée comme chaque achat consignés au dossier du projet — pas estimés à la fin.",
     ],
     badgeValue: "14",
     badgeLabel: "sous-catégories RBQ autorisées",
