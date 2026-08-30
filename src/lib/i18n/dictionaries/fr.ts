@@ -128,7 +128,7 @@ const fr: Dictionary = {
       {
         title: "Chantier",
         description:
-          "Les travaux avancent selon l'échéancier convenu. S'il y a un imprévu, vous l'apprenez le jour même, pas à la fin.",
+          "Des rencontres régulières, avec vous comme avec les sous-traitants, gardent tout le monde au même point : ce qui est fait, ce qui s'en vient, et ce qui doit être décidé. Vous n'avez pas à courir après l'information — elle vous arrive.",
       },
       {
         title: "Livraison",

@@ -116,7 +116,7 @@ const en: Dictionary = {
       {
         title: "Construction",
         description:
-          "Work proceeds on the agreed schedule. If something unexpected comes up, you hear about it that day — not at the end.",
+          "Regular meetings, with you and with the trades alike, keep everyone at the same point: what is done, what is coming, and what needs deciding. You don't chase the information — it reaches you.",
       },
       {
         title: "Handover",
