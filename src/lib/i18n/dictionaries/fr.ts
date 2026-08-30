@@ -246,7 +246,7 @@ const fr: Dictionary = {
       {
         title: "La finition",
         description:
-          "Raccords intérieurs, céramique, armoires, comptoirs et retouches. Les corps de métier réservés — plomberie, électricité, ventilation — sont exécutés par des entrepreneurs licenciés dans leur spécialité.",
+          "Raccords intérieurs, céramique, armoires, comptoirs et retouches. C'est l'étape où la maison cesse d'être un module posé sur une fondation et devient la vôtre.",
       },
     ],
     advantagesEyebrow: "Pourquoi le modulaire",

@@ -234,7 +234,7 @@ const en: Dictionary = {
       {
         title: "The finishing",
         description:
-          "Interior connections, tile, cabinets, countertops and touch-ups. Reserved trades — plumbing, electrical, ventilation — are carried out by contractors licensed in their own specialty.",
+          "Interior connections, tile, cabinets, countertops and touch-ups. This is the stage where the house stops being a module set on a foundation and becomes yours.",
       },
     ],
     advantagesEyebrow: "Why modular",
