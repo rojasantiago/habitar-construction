@@ -65,15 +65,42 @@ export function ProjectsGrid({ dict }: { dict: Dictionary }) {
               key={project.title}
               className="group flex flex-col overflow-hidden rounded-2xl border border-stone-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-navy-900/10"
             >
-              <div className="relative aspect-[4/3] overflow-hidden">
-                <Image
-                  src={img(project.imageId, 800)}
-                  alt={project.title}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-navy-950/40 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
+              {/* Portrait, because that is how the site photographs were
+                  taken — a landscape crop would cut the height out of a
+                  corridor or a trench, which is the whole subject. */}
+              <div className="relative aspect-3/4 overflow-hidden">
+                {project.beforeImageId ? (
+                  <div className="grid h-full grid-cols-2 gap-px bg-stone-200">
+                    {[
+                      { src: project.beforeImageId, label: dict.projects.beforeLabel },
+                      { src: project.imageId, label: dict.projects.afterLabel },
+                    ].map((shot) => (
+                      <div key={shot.label} className="relative overflow-hidden bg-white">
+                        <Image
+                          src={img(shot.src, 800)}
+                          alt={`${project.title} — ${shot.label}`}
+                          fill
+                          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 17vw"
+                          className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                        <span className="absolute bottom-2 left-2 rounded-full bg-navy-950/75 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-white">
+                          {shot.label}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <>
+                    <Image
+                      src={img(project.imageId, 800)}
+                      alt={project.title}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-navy-950/40 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
+                  </>
+                )}
                 <span className="absolute left-4 top-4 rounded-full bg-orange-500 px-3 py-1 text-xs font-semibold text-white shadow-lg">
                   {project.category}
                 </span>

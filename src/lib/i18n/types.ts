@@ -111,14 +111,21 @@ export interface Dictionary {
     heroTitle: string;
     heroSubtitle: string;
     filterAll: string;
-    /** Empty until the owner's own photographs replace the placeholders. */
+    /**
+     * Only the company's own photographs. `imageId` starting with "/" is one
+     * of ours under public/; `beforeImageId` turns the card into a before /
+     * after pair, which is the most persuasive format renovation has.
+     */
     items: {
       title: string;
       category: string;
       location: string;
       description: string;
       imageId: string;
+      beforeImageId?: string;
     }[];
+    beforeLabel: string;
+    afterLabel: string;
     emptyTitle: string;
     emptyBody: string;
     ctaTitle: string;

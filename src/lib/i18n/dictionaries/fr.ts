@@ -296,11 +296,39 @@ const fr: Dictionary = {
   projects: {
     heroEyebrow: "Nos réalisations",
     heroTitle: "Nos chantiers",
-    heroSubtitle: "Nos chantiers, et pourquoi il y en a plus que de photos.",
+    heroSubtitle:
+      "Quelques chantiers que nous avons menés. Nous en ajoutons au fur et à mesure — la photo passe souvent après le travail.",
     filterAll: "Tous",
-    // Vide tant que les photos des chantiers réels ne sont pas versées ici.
-    // Aucune image de banque ne sera présentée comme une réalisation.
-    items: [],
+    // Uniquement nos propres photos de chantier. Aucune image de banque ici.
+    items: [
+      {
+        title: "Salle de bain refaite au complet",
+        category: "Rénovation",
+        location: "Montréal",
+        description:
+          "Démolition complète, nouvelle douche en verre avec fond de galets, murs et plancher en céramique, vanité et ventilation. La pièce a été reprise du plancher au plafond.",
+        beforeImageId: "/realisations/salle-de-bain-avant.jpg",
+        imageId: "/realisations/salle-de-bain-apres.jpg",
+      },
+      {
+        title: "Planchers d'un immeuble résidentiel",
+        category: "Rénovation",
+        location: "Île-des-Sœurs, Montréal",
+        description:
+          "Céramique grand format posée en chevron dans les corridors, avec bordures et motifs en losange sur mesure. Un patron comme celui-là ne pardonne aucune coupe approximative.",
+        imageId: "/realisations/planchers-ids-1.jpg",
+      },
+      {
+        title: "Prolongement d'une entrée de sous-sol",
+        category: "Structure",
+        location: "Montréal",
+        description:
+          "Excavation le long de la fondation existante, coffrage et coulée de nouveaux murs de béton, étanchéité, puis dalle. Le genre de travaux qu'on ne voit plus une fois le terrain remblayé.",
+        imageId: "/realisations/sous-sol-1.jpg",
+      },
+    ],
+    beforeLabel: "Avant",
+    afterLabel: "Après",
     emptyTitle: "Peu de photos, beaucoup de chantiers",
     emptyBody:
       "Habitar s'est bâtie par le bouche-à-oreille. Pendant des années, notre énergie est allée au résultat et à la satisfaction du client plutôt qu'à notre propre vitrine — nous avons donc accumulé les chantiers terminés bien plus vite que les photos. Nous rattrapons ce retard et cette page se remplira. D'ici là, appelez-nous : nous vous parlerons volontiers de projets comparables au vôtre.",

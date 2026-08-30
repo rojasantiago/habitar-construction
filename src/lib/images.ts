@@ -28,7 +28,16 @@ const IDS = {
   bathroom: "photo-1604709177225-055f99402ea3", // renovated grey bathroom
 } as const;
 
+/**
+ * Resolves a picture reference to a URL.
+ *
+ * A value beginning with "/" is one of our own photographs, already sized and
+ * straightened under public/ — it is served as-is. Anything else is an
+ * Unsplash id, kept for the illustrative photography on the service and
+ * modular pages.
+ */
 export function img(id: string, w: number, q = 80): string {
+  if (id.startsWith("/")) return id;
   return build(id, w, q);
 }
 

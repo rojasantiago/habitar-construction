@@ -284,11 +284,39 @@ const en: Dictionary = {
   projects: {
     heroEyebrow: "Our work",
     heroTitle: "Our projects",
-    heroSubtitle: "Our projects, and why there are more of them than photos.",
+    heroSubtitle:
+      "A few of the projects we have delivered. We add to this as we go — the photograph tends to come second to the work.",
     filterAll: "All",
-    // Empty until photographs of real job sites are added here. No stock
-    // photograph will ever be presented as our own work.
-    items: [],
+    // Our own job-site photographs only. No stock imagery here.
+    items: [
+      {
+        title: "Bathroom rebuilt from scratch",
+        category: "Renovation",
+        location: "Montreal",
+        description:
+          "Full strip-out, new glass shower with a pebble base, ceramic walls and floor, vanity and ventilation. The room was rebuilt from the floor to the ceiling.",
+        beforeImageId: "/realisations/salle-de-bain-avant.jpg",
+        imageId: "/realisations/salle-de-bain-apres.jpg",
+      },
+      {
+        title: "Corridor floors in a residential building",
+        category: "Renovation",
+        location: "Nuns' Island, Montreal",
+        description:
+          "Large-format ceramic laid in a chevron pattern through the corridors, with custom borders and diamond inlays. A pattern like that forgives no rough cut.",
+        imageId: "/realisations/planchers-ids-1.jpg",
+      },
+      {
+        title: "Extending a basement entrance",
+        category: "Structure",
+        location: "Montreal",
+        description:
+          "Excavation alongside the existing foundation, formwork and new poured concrete walls, waterproofing, then the slab. The kind of work nobody sees once the ground is backfilled.",
+        imageId: "/realisations/sous-sol-1.jpg",
+      },
+    ],
+    beforeLabel: "Before",
+    afterLabel: "After",
     emptyTitle: "Few photos, plenty of job sites",
     emptyBody:
       "Habitar was built on word of mouth. For years our energy went into the result and the client's satisfaction rather than our own shop window — so we have collected finished job sites a good deal faster than photographs. We're catching up, and this page will fill. In the meantime, call us: we'll gladly talk you through projects comparable to yours.",
