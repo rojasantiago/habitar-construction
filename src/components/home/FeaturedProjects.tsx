@@ -17,6 +17,10 @@ export function FeaturedProjects({
   const h = dict.home;
   const featured = dict.projects.items.slice(0, 3);
 
+  // Hidden until real job-site photographs exist. A stock photo captioned with
+  // a town and a square footage is a fabricated project, not a placeholder.
+  if (featured.length === 0) return null;
+
   return (
     <section className="bg-white py-24 sm:py-28">
       <Container className="flex flex-col gap-14">

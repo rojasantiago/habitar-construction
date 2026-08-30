@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useMemo, useState } from "react";
-import { MapPin } from "lucide-react";
+import { Camera, MapPin } from "lucide-react";
 import type { Dictionary } from "@/lib/i18n/types";
 import { Container } from "@/components/ui/Container";
 import { img } from "@/lib/images";
@@ -18,6 +18,26 @@ export function ProjectsGrid({ dict }: { dict: Dictionary }) {
     active === dict.projects.filterAll
       ? dict.projects.items
       : dict.projects.items.filter((p) => p.category === active);
+
+  // Says plainly that the photographs are coming, instead of dressing the page
+  // with stock images captioned as our own work.
+  if (dict.projects.items.length === 0) {
+    return (
+      <section className="bg-white py-20 sm:py-24">
+        <Container>
+          <div className="mx-auto flex max-w-xl flex-col items-center gap-4 rounded-2xl border border-stone-200 bg-stone-50 px-8 py-16 text-center">
+            <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-navy-900 text-orange-500">
+              <Camera size={26} />
+            </span>
+            <h2 className="font-display text-2xl font-bold text-navy-900">
+              {dict.projects.emptyTitle}
+            </h2>
+            <p className="text-base leading-relaxed text-slate-600">{dict.projects.emptyBody}</p>
+          </div>
+        </Container>
+      </section>
+    );
+  }
 
   return (
     <section className="bg-white py-20 sm:py-24">

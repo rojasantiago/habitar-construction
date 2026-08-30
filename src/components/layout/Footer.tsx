@@ -12,10 +12,12 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
     dict.services.list[0].title,
     dict.services.list[1].title,
     dict.services.list[2].title,
+    dict.services.list[3].title,
   ];
 
   const companyLinks = [
     { href: `/${locale}/about`, label: dict.nav.about },
+    { href: `/${locale}/modular`, label: dict.nav.modular },
     { href: `/${locale}/projects`, label: dict.nav.projects },
     { href: `/${locale}/contact`, label: dict.nav.contact },
   ];

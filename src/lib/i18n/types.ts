@@ -6,6 +6,7 @@ export interface Dictionary {
   nav: {
     home: string;
     services: string;
+    modular: string;
     projects: string;
     about: string;
     contact: string;
@@ -41,6 +42,9 @@ export interface Dictionary {
     heroCtaSecondary: string;
     heroTrust: string;
     trustBadges: string[];
+    /** Carte flottante du héro : un chiffre, et il doit être vérifiable. */
+    badgeValue: string;
+    badgeLabel: string;
     stats: { value: string; label: string }[];
     servicesEyebrow: string;
     servicesTitle: string;
@@ -58,6 +62,10 @@ export interface Dictionary {
     featuredCta: string;
     testimonialsEyebrow: string;
     testimonialsTitle: string;
+    /**
+     * Empty until real, attributable client quotes exist. The section removes
+     * itself rather than render invented praise.
+     */
     testimonials: { quote: string; name: string; role: string }[];
     ctaTitle: string;
     ctaSubtitle: string;
@@ -75,11 +83,33 @@ export interface Dictionary {
     ctaTitle: string;
     ctaSubtitle: string;
   };
+  /** Factory-built homes assembled on site — the work the licence already covers. */
+  modular: {
+    heroEyebrow: string;
+    heroTitle: string;
+    heroSubtitle: string;
+    introTitle: string;
+    introParagraphs: string[];
+    galleryTitle: string;
+    gallerySubtitle: string;
+    galleryNote: string;
+    gallery: { caption: string; imageId: string }[];
+    stepsEyebrow: string;
+    stepsTitle: string;
+    stepsSubtitle: string;
+    steps: { title: string; description: string }[];
+    advantagesEyebrow: string;
+    advantagesTitle: string;
+    advantages: { title: string; description: string }[];
+    ctaTitle: string;
+    ctaSubtitle: string;
+  };
   projects: {
     heroEyebrow: string;
     heroTitle: string;
     heroSubtitle: string;
     filterAll: string;
+    /** Empty until the owner's own photographs replace the placeholders. */
     items: {
       title: string;
       category: string;
@@ -87,6 +117,8 @@ export interface Dictionary {
       description: string;
       imageId: string;
     }[];
+    emptyTitle: string;
+    emptyBody: string;
     ctaTitle: string;
     ctaSubtitle: string;
   };
@@ -96,6 +128,19 @@ export interface Dictionary {
     heroSubtitle: string;
     storyTitle: string;
     storyParagraphs: string[];
+    /** Chiffre mis en avant sur la photo : le seul qui soit vérifiable. */
+    badgeValue: string;
+    badgeLabel: string;
+    /**
+     * The licence, transcribed in the Régie's own wording. It is the one claim
+     * on this site a visitor can verify independently, so it is stated in full
+     * rather than summarised.
+     */
+    licenceEyebrow: string;
+    licenceTitle: string;
+    licenceSubtitle: string;
+    licenceNote: string;
+    licenceItems: { code: string; label: string }[];
     valuesTitle: string;
     values: { title: string; description: string }[];
     statsTitle: string;

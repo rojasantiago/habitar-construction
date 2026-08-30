@@ -1,22 +1,34 @@
 import type { Dictionary } from "../types";
 
+/**
+ * Tout ce qui est affirmé ici doit être vérifiable.
+ *
+ * Le site s'appuie sur la licence RBQ 5763-1392-01 et ses quatorze
+ * sous-catégories, transcrites dans les termes exacts de la Régie. Aucun
+ * chiffre d'expérience, aucun témoignage et aucune adhésion ne sont avancés
+ * tant qu'ils ne peuvent pas être prouvés : la Loi sur la protection du
+ * consommateur juge l'impression générale que dégage une page, pas seulement
+ * ses mots. Le titre « entrepreneur général » n'apparaît nulle part tant que
+ * la Régie ne l'a pas délivré.
+ */
 const fr: Dictionary = {
   meta: {
     titleSuffix: "Habitar Construction",
     defaultDescription:
-      "Habitar Construction — entrepreneur général spécialisé en gestion de projet, construction clé en main et rénovation résidentielle et commerciale.",
+      "Habitar Construction — entrepreneur en construction du Grand Montréal. Excavation, béton, charpente, toiture, revêtement, portes et fenêtres, armoires et finition sous une seule licence RBQ. Maisons modulaires.",
   },
   nav: {
     home: "Accueil",
     services: "Services",
-    projects: "Projets",
+    modular: "Maisons modulaires",
+    projects: "Réalisations",
     about: "À propos",
     contact: "Contact",
     getQuote: "Soumission gratuite",
   },
   footer: {
     tagline:
-      "Entrepreneur général de confiance pour vos projets résidentiels et commerciaux, du premier plan à la remise des clés.",
+      "Un seul entrepreneur licencié pour le terrassement, la structure, l'enveloppe et la finition de votre projet.",
     ctaTitle: "Une question sur votre projet ? Parlons-en.",
     servicesTitle: "Services",
     companyTitle: "Entreprise",
@@ -29,262 +41,332 @@ const fr: Dictionary = {
     phone: "(514) 655-2458",
     email: "habitar.construction@gmail.com",
     region: "Grand Montréal et environs",
-    addressLine: "1234 Rue de la Construction, Montréal, QC",
+    addressLine: "7146, boulevard Pie-IX, Montréal (Québec) H2A 2G4",
     ctaPrimary: "Demander une soumission",
-    ctaSecondary: "Voir nos projets",
+    ctaSecondary: "Voir nos services",
     readMore: "En savoir plus",
     viewAll: "Voir tous les services",
-    rbqLicense: "Licence RBQ : 57631392",
+    rbqLicense: "Licence RBQ : 5763-1392-01",
   },
   home: {
-    heroEyebrow: "Entrepreneur général — résidentiel & commercial",
-    heroTitle: "Votre projet, livré",
-    heroHighlight: "comme promis.",
+    heroEyebrow: "Entrepreneur en construction — Grand Montréal",
+    heroTitle: "Du terrassement",
+    heroHighlight: "à la finition.",
     heroSubtitle:
-      "Un échéancier que l'on respecte, un budget clair dès le départ, et une seule personne responsable du début à la fin. Vous savez toujours où en est votre chantier.",
+      "Notre licence RBQ couvre quatorze sous-catégories : excavation, béton, charpente, maçonnerie, toiture, revêtement extérieur, portes et fenêtres, armoires et finition. Moins d'entrepreneurs sur votre chantier, une seule personne qui en répond.",
     heroCtaPrimary: "Demander une soumission gratuite",
-    heroCtaSecondary: "Découvrir nos services",
-    heroTrust: "Licence RBQ 57631392 · Assuré · Garanti",
+    heroCtaSecondary: "Ce que couvre notre licence",
+    heroTrust: "Licence RBQ 5763-1392-01 · 14 sous-catégories autorisées",
     trustBadges: [
-      "Licence RBQ 57631392",
-      "Assurance responsabilité",
-      "Garantie GCR",
-      "Membre APCHQ",
-      "15 ans d'expérience",
+      "Licence RBQ 5763-1392-01",
+      "14 sous-catégories autorisées",
+      "Excavation et terrassement",
+      "Charpentes de bois",
+      "Toiture et revêtement extérieur",
+      "Portes et fenêtres",
+      "Armoires et comptoirs",
+      "Maisons modulaires",
       "Soumission gratuite",
     ],
+    badgeValue: "14",
+    badgeLabel: "sous-catégories autorisées à notre licence",
+    // Ce ne sont pas des chiffres de performance mais la portée réelle de la
+    // licence, regroupée en quatre volets. Chaque mot correspond à une
+    // sous-catégorie inscrite au registre de la Régie.
     stats: [
-      { value: "15+", label: "années d'expérience" },
-      { value: "120+", label: "projets complétés" },
-      { value: "98%", label: "clients satisfaits" },
-      { value: "100%", label: "licencié et assuré" },
+      { value: "Terrain", label: "excavation, terrassement et travaux d'emplacement" },
+      { value: "Structure", label: "petits ouvrages de béton et charpentes de bois" },
+      { value: "Enveloppe", label: "isolation, couverture, revêtement, portes et fenêtres" },
+      { value: "Finition", label: "céramique, marbre, armoires, comptoirs et finition" },
     ],
-    servicesEyebrow: "Ce que nous offrons",
-    servicesTitle: "Des services complets, une seule équipe",
+    servicesEyebrow: "Ce que nous faisons",
+    servicesTitle: "Quatre volets, une seule licence",
     servicesSubtitle:
-      "De la gestion de projet à la construction clé en main, nous coordonnons chaque étape pour vous éviter les maux de tête.",
+      "Rénovation, enveloppe du bâtiment, travaux extérieurs et maisons modulaires — exécutés par la même équipe, sous le même numéro de licence.",
     whyEyebrow: "Pourquoi Habitar",
-    whyTitle: "Un partenaire fiable du premier coup de pelle à la remise des clés",
+    whyTitle: "Moins d'intervenants, moins de zones grises",
     whySubtitle:
-      "Nous combinons expertise terrain et gestion rigoureuse pour livrer des projets à temps et selon le budget convenu.",
+      "La plupart des chantiers dérapent aux jonctions : entre l'excavateur et le coffreur, entre le couvreur et le finisseur. Quand les deux côtés relèvent du même entrepreneur, la jonction cesse d'être votre problème.",
     whyItems: [
       {
-        title: "Gestion transparente",
+        title: "Une licence large",
         description:
-          "Échéanciers clairs, budgets détaillés et communication constante à chaque étape du projet.",
+          "Quatorze sous-catégories, du terrassement aux armoires. Le numéro est public : vérifiez-le au registre de la Régie du bâtiment avant même de nous appeler.",
       },
       {
-        title: "Équipe qualifiée",
+        title: "Un seul responsable",
         description:
-          "Un réseau d'entrepreneurs spécialisés et de professionnels licenciés supervisé directement par notre équipe.",
+          "Vous n'arbitrez pas entre corps de métier. Une personne répond de l'échéancier, du budget et de la qualité, du premier coup de pelle à la dernière retouche.",
       },
       {
-        title: "Qualité garantie",
+        title: "Un prix écrit",
         description:
-          "Des standards de construction rigoureux et une garantie sur la main-d'œuvre pour votre tranquillité d'esprit.",
+          "Soumission ferme, détaillée poste par poste, avec ce qui est inclus et ce qui ne l'est pas. Tout ajout passe par un avenant signé avant les travaux — jamais découvert sur la facture finale.",
       },
       {
-        title: "Respect des délais",
+        title: "Un budget suivi au jour le jour",
         description:
-          "Une planification serrée qui minimise les retards et les surprises, du début à la fin.",
+          "Chaque heure travaillée et chaque achat sont enregistrés au dossier de votre projet. Quand vous demandez où en est le budget, la réponse existe déjà.",
       },
     ],
     processEyebrow: "Notre approche",
-    processTitle: "Un processus simple, en quatre étapes",
+    processTitle: "Quatre étapes, sans surprise",
     processSteps: [
       {
-        title: "Consultation",
-        description: "On discute de votre vision, de vos besoins et de votre budget.",
+        title: "Rencontre",
+        description:
+          "On visite les lieux, on écoute ce que vous voulez et on note ce qui doit être fait. Sans frais et sans engagement.",
       },
       {
-        title: "Planification",
-        description: "Plans, permis et échéancier sont préparés avant le premier coup de marteau.",
+        title: "Soumission",
+        description:
+          "Un prix ferme, détaillé par poste. Vous voyez ce qui est compris, ce qui ne l'est pas, et l'échéancier proposé.",
       },
       {
-        title: "Construction",
-        description: "Nos équipes exécutent les travaux avec des mises à jour régulières.",
+        title: "Chantier",
+        description:
+          "Les travaux avancent selon l'échéancier convenu. S'il y a un imprévu, vous l'apprenez le jour même, pas à la fin.",
       },
       {
         title: "Livraison",
-        description: "Inspection finale et remise des clés d'un projet livré comme promis.",
+        description:
+          "Inspection avec vous, corrections s'il y a lieu, puis la facture finale — qui correspond à la soumission et aux avenants signés.",
       },
     ],
-    featuredEyebrow: "Réalisations récentes",
-    featuredTitle: "Un aperçu de notre savoir-faire",
-    featuredSubtitle:
-      "Chaque projet reflète notre engagement envers la qualité et le souci du détail.",
-    featuredCta: "Voir tous nos projets",
+    featuredEyebrow: "Réalisations",
+    featuredTitle: "Nos chantiers",
+    featuredSubtitle: "Un aperçu des projets que nous avons menés.",
+    featuredCta: "Voir toutes nos réalisations",
     testimonialsEyebrow: "Témoignages",
     testimonialsTitle: "Ce que disent nos clients",
-    testimonials: [
-      {
-        quote:
-          "Habitar a géré notre agrandissement du début à la fin sans aucun stress. Communication impeccable.",
-        name: "Marie-Claude Tremblay",
-        role: "Projet résidentiel, Laval",
-      },
-      {
-        quote:
-          "Une équipe professionnelle qui respecte les délais et le budget. Nous les recommandons sans hésiter.",
-        name: "Simon Bérubé",
-        role: "Rénovation commerciale, Montréal",
-      },
-      {
-        quote:
-          "Du design à la livraison, tout a été géré avec rigueur. Le résultat dépasse nos attentes.",
-        name: "Josée Lamontagne",
-        role: "Construction neuve, Longueuil",
-      },
-    ],
+    // Volontairement vide. La section ne s'affiche pas tant qu'un vrai client
+    // n'a pas accepté d'être cité et nommé.
+    testimonials: [],
     ctaTitle: "Prêt à démarrer votre projet ?",
     ctaSubtitle:
-      "Obtenez une soumission gratuite et sans engagement. Notre équipe vous répond en moins de 24 heures.",
+      "Obtenez une soumission gratuite et sans engagement. Nous répondons à toutes les demandes en moins de 24 heures.",
   },
   services: {
     heroEyebrow: "Nos services",
-    heroTitle: "Un entrepreneur général pour chaque étape de votre projet",
+    heroTitle: "Ce que notre licence nous permet de faire",
     heroSubtitle:
-      "Que ce soit pour construire, agrandir ou rénover, Habitar Construction coordonne tous les corps de métier sous un même toit.",
+      "Quatorze sous-catégories RBQ couvrant le terrain, la structure, l'enveloppe et la finition — plus l'assemblage de maisons modulaires livrées en usine.",
     list: [
       {
-        title: "Gestion de projet",
+        title: "Rénovation résidentielle",
         description:
-          "Nous orchestrons chaque aspect de votre projet — budget, échéancier, permis et sous-traitants — pour une exécution sans faille.",
+          "Cuisines, salles de bain, sous-sols et réaménagements complets. C'est le cœur de notre travail quotidien, et la licence couvre chaque métier qu'un tel chantier demande.",
         points: [
-          "Planification et estimation détaillée",
-          "Obtention des permis municipaux",
-          "Coordination des corps de métier",
-          "Suivi budgétaire et rapports réguliers",
+          "Cuisines, salles de bain et sous-sols",
+          "Céramique, marbre et maçonnerie non structurale",
+          "Armoires et comptoirs usinés",
+          "Travaux de finition, portes et fenêtres",
         ],
-        imageId: "photo-1503387762-592deb58ef4e",
+        imageId: "photo-1600607687939-ce8a6c25118c",
       },
       {
-        title: "Construction clé en main",
+        title: "Enveloppe du bâtiment",
         description:
-          "De la conception à la remise des clés, nous prenons en charge l'ensemble de votre projet de construction neuve.",
+          "Tout ce qui sépare l'intérieur du climat québécois : la toiture, l'isolation, l'étanchéité et le revêtement extérieur relèvent d'une seule et même sous-catégorie de notre licence.",
         points: [
-          "Constructions résidentielles neuves",
-          "Agrandissements et ajouts d'étage",
-          "Bâtiments commerciaux",
-          "Un seul point de contact du début à la fin",
+          "Couverture et étanchéité",
+          "Isolation et pare-air",
+          "Revêtement extérieur",
+          "Remplacement de portes et fenêtres",
+        ],
+        imageId: "photo-1600585154340-be6161a56a0c",
+      },
+      {
+        title: "Travaux extérieurs et structure",
+        description:
+          "Du terrain nu à la charpente montée : excavation, nivellement, dalles et fondations légères, puis la structure de bois et les ouvrages métalliques.",
+        points: [
+          "Excavation, terrassement et travaux d'emplacement",
+          "Petits ouvrages de béton — dalles, semelles, fondations légères",
+          "Charpentes de bois",
+          "Ouvrages métalliques",
         ],
         imageId: "photo-1541888946425-d81bb19240f5",
       },
       {
-        title: "Rénovation résidentielle et commerciale",
+        title: "Maisons modulaires",
         description:
-          "Nous transformons vos espaces existants avec un souci du détail et une exécution soignée.",
+          "La maison sort de l'usine. Le terrain, la fondation, l'assemblage, le scellement et la finition se font sur place — et c'est exactement ce que couvre notre licence, y compris la sous-catégorie des installations préfabriquées.",
         points: [
-          "Cuisines, salles de bain et sous-sols",
-          "Rénovations majeures et transformations complètes",
-          "Aménagement de locaux commerciaux",
-          "Mise aux normes et efficacité énergétique",
+          "Préparation du terrain et fondation",
+          "Assemblage et ancrage des modules",
+          "Scellement de l'enveloppe et de la toiture",
+          "Finition intérieure et raccords",
         ],
-        imageId: "photo-1600607687939-ce8a6c25118c",
+        imageId: "photo-1600566753190-17f0baa2a6c3",
       },
     ],
     ctaTitle: "Un projet en tête ?",
     ctaSubtitle:
       "Parlons-en. Nous évaluons votre projet et vous proposons une solution adaptée à votre budget.",
   },
-  projects: {
-    heroEyebrow: "Nos réalisations",
-    heroTitle: "Des projets livrés avec rigueur et précision",
+  modular: {
+    heroEyebrow: "Construction modulaire",
+    heroTitle: "La maison est usinée. Le chantier, c'est nous.",
     heroSubtitle:
-      "Un aperçu de nos réalisations récentes en construction neuve, rénovation et gestion de projet.",
-    filterAll: "Tous",
-    items: [
+      "Une maison modulaire est bâtie en usine, à l'abri du climat, puis livrée en sections sur votre terrain. Tout ce qui se passe ensuite sur le site — le terrain, la fondation, l'assemblage, le scellement, la finition — relève des sous-catégories que nous détenons déjà.",
+    introTitle: "Comment ça fonctionne",
+    introParagraphs: [
+      "Le modulaire n'est pas une maison mobile. Ce sont des sections complètes de maison — murs, planchers, toiture, isolation, parfois même les armoires et la céramique — construites en usine selon le Code de construction du Québec, puis transportées et assemblées sur une fondation permanente.",
+      "L'usine fait ce qu'une usine fait mieux qu'un chantier : travailler au sec, sous éclairage constant, avec des gabarits et un contrôle de qualité à chaque poste. Le résultat est une enveloppe plus régulière et un échéancier qui ne dépend plus de la pluie ni du gel.",
+      "Mais une maison modulaire ne se pose pas toute seule. Il faut un terrain préparé, une fondation au millimètre, une grue, un assemblage étanche, puis toute la finition sur place. C'est là que nous intervenons, et c'est précisément ce que couvre notre licence.",
+    ],
+    galleryTitle: "À quoi ça ressemble",
+    gallerySubtitle:
+      "Le préfabriqué d'aujourd'hui n'a plus rien du bungalow de catalogue : grandes ouvertures, toits plats ou à faible pente, revêtements de bois et de métal.",
+    galleryNote:
+      "Images d'illustration présentant le style de construction modulaire contemporaine. Ce ne sont pas des projets réalisés par Habitar Construction.",
+    gallery: [
+      { caption: "Volume simple, revêtement de bois", imageId: "photo-1600566753190-17f0baa2a6c3" },
+      { caption: "Grandes ouvertures et toit à faible pente", imageId: "photo-1600585154340-be6161a56a0c" },
+      { caption: "Assemblage de sections sur fondation", imageId: "photo-1541888946425-d81bb19240f5" },
+      { caption: "Finition intérieure ouverte", imageId: "photo-1600566753086-00f18fb6b3ea" },
+    ],
+    stepsEyebrow: "Notre rôle",
+    stepsTitle: "Ce que nous faisons sur le site",
+    stepsSubtitle:
+      "L'usine livre les modules. Les cinq étapes suivantes se passent sur votre terrain, et chacune correspond à une sous-catégorie inscrite à notre licence.",
+    steps: [
       {
-        title: "Résidence familiale contemporaine",
-        category: "Construction neuve",
-        location: "Laval, QC",
+        title: "Le terrain",
         description:
-          "Construction clé en main d'une résidence de 2 800 pi², du terrassement à la remise des clés.",
-        imageId: "photo-1600566753190-17f0baa2a6c3",
+          "Excavation, nivellement et travaux d'emplacement. La livraison d'un module exige un accès pour un camion long et une grue : ça se planifie avant de creuser.",
       },
       {
-        title: "Rénovation de cuisine et salle à manger",
-        category: "Rénovation résidentielle",
-        location: "Montréal, QC",
+        title: "La fondation",
         description:
-          "Réaménagement complet d'un espace cuisine ouvert avec îlot central et fenestration agrandie.",
-        imageId: "photo-1556911220-bff31c812dba",
+          "Semelles, dalle ou fondation légère coulées aux dimensions exactes de l'usine. Une maison modulaire ne pardonne pas l'à-peu-près : les modules doivent se poser au millimètre.",
       },
       {
-        title: "Aménagement de bureaux corporatifs",
-        category: "Construction commerciale",
-        location: "Brossard, QC",
+        title: "L'assemblage",
         description:
-          "Aménagement clé en main de 6 000 pi² d'espaces de bureaux pour une entreprise technologique.",
-        imageId: "photo-1487958449943-2429e8be8625",
+          "Pose des sections à la grue, ancrage, jonction des planchers et des murs. C'est la journée où la maison apparaît.",
       },
       {
-        title: "Agrandissement et sous-sol fini",
-        category: "Rénovation résidentielle",
-        location: "Longueuil, QC",
+        title: "Le scellement",
         description:
-          "Ajout d'un agrandissement à l'arrière et aménagement complet du sous-sol en espace familial.",
-        imageId: "photo-1600566753086-00f18fb6b3ea",
+          "Les jonctions entre modules sont isolées, rendues étanches à l'air et à l'eau, puis la toiture et le revêtement extérieur sont complétés. C'est l'étape qui décide de la performance de la maison pour trente ans.",
       },
       {
-        title: "Local commercial multi-locataires",
-        category: "Construction commerciale",
-        location: "Terrebonne, QC",
+        title: "La finition",
         description:
-          "Gestion de projet complète pour la construction d'un bâtiment commercial de trois unités.",
-        imageId: "photo-1504307651254-35680f356dfd",
-      },
-      {
-        title: "Rénovation de salle de bain principale",
-        category: "Rénovation résidentielle",
-        location: "Repentigny, QC",
-        description:
-          "Transformation complète d'une salle de bain principale avec douche sur mesure et plancher chauffant.",
-        imageId: "photo-1604709177225-055f99402ea3",
+          "Raccords intérieurs, céramique, armoires, comptoirs et retouches. Les corps de métier réservés — plomberie, électricité, ventilation — sont exécutés par des entrepreneurs licenciés dans leur spécialité.",
       },
     ],
+    advantagesEyebrow: "Pourquoi le modulaire",
+    advantagesTitle: "Ce que ça change pour vous",
+    advantages: [
+      {
+        title: "Un échéancier plus court",
+        description:
+          "L'usine construit la maison pendant que nous préparons le terrain et la fondation. Les deux chantiers avancent en parallèle au lieu de se suivre.",
+      },
+      {
+        title: "Moins d'aléas de météo",
+        description:
+          "La structure et l'isolation ne sont jamais exposées à la pluie ou au gel avant d'être fermées. Au Québec, c'est ce qui coûte le plus cher en reprises.",
+      },
+      {
+        title: "Un prix connu plus tôt",
+        description:
+          "Une grande part du coût est fixée en usine, sur devis. Ce qui reste variable, c'est le site — et c'est la partie que nous chiffrons.",
+      },
+      {
+        title: "Une qualité mesurée",
+        description:
+          "Chaque module passe des contrôles en usine avant d'être expédié, selon les normes applicables au Québec.",
+      },
+    ],
+    ctaTitle: "Un terrain et un projet de maison modulaire ?",
+    ctaSubtitle:
+      "Parlons du terrain, de l'accès et de la fondation. C'est là que se joue la faisabilité, et c'est gratuit d'en discuter.",
+  },
+  projects: {
+    heroEyebrow: "Nos réalisations",
+    heroTitle: "Nos chantiers",
+    heroSubtitle: "Les projets que nous avons menés, en photos.",
+    filterAll: "Tous",
+    // Vide tant que les photos des chantiers réels ne sont pas versées ici.
+    // Aucune image de banque ne sera présentée comme une réalisation.
+    items: [],
+    emptyTitle: "Nos photos de chantier arrivent",
+    emptyBody:
+      "Nous préférons une page vide à des images de banque présentées comme nos réalisations. Les photos de nos chantiers récents sont en préparation. D'ici là, appelez-nous : nous vous parlerons volontiers de projets comparables au vôtre.",
     ctaTitle: "Votre projet pourrait être le prochain",
     ctaSubtitle: "Discutons de votre vision et voyons comment nous pouvons la concrétiser.",
   },
   about: {
-    heroEyebrow: "À propos de nous",
-    heroTitle: "Bâtir la confiance, un projet à la fois",
+    heroEyebrow: "À propos",
+    heroTitle: "Une licence large, une seule équipe",
     heroSubtitle:
-      "Habitar Construction est une entreprise d'entrepreneur général dédiée à la qualité, la transparence et le respect des engagements.",
-    storyTitle: "Notre histoire",
+      "Habitar Construction est une entreprise de construction du Grand Montréal, titulaire d'une licence de la Régie du bâtiment du Québec couvrant quatorze sous-catégories de travaux.",
+    storyTitle: "Notre approche",
     storyParagraphs: [
-      "Habitar Construction a été fondée avec une mission simple : offrir aux propriétaires et aux entreprises un partenaire de construction en qui ils peuvent réellement avoir confiance.",
-      "Au fil des années, notre équipe a bâti sa réputation sur la rigueur de sa gestion de projet, la qualité de son exécution et une communication honnête à chaque étape.",
-      "Aujourd'hui, nous accompagnons des clients résidentiels et commerciaux à travers le Grand Montréal, de la première esquisse jusqu'à la remise des clés.",
+      "Habitar Construction exécute des travaux de rénovation et de construction résidentielle dans le Grand Montréal. L'entreprise est constituée sous le nom de 9377-7720 Québec inc. et détient la licence RBQ 5763-1392-01.",
+      "Notre particularité tient à l'étendue de cette licence. Là où beaucoup d'entreprises détiennent une ou deux sous-catégories, la nôtre en couvre quatorze — de l'excavation et des petits ouvrages de béton jusqu'aux armoires et aux travaux de finition, en passant par la charpente, la toiture, le revêtement extérieur, les portes et les fenêtres.",
+      "Concrètement, cela veut dire moins de sous-traitants à coordonner sur votre chantier, moins de délais entre les corps de métier, et une seule personne à qui poser vos questions. Les métiers réservés — plomberie, électricité, ventilation — sont confiés à des entrepreneurs licenciés dans leur spécialité, comme la loi l'exige.",
+    ],
+    badgeValue: "14",
+    badgeLabel: "sous-catégories RBQ autorisées",
+    licenceEyebrow: "Vérifiable",
+    licenceTitle: "Notre licence, au complet",
+    licenceSubtitle:
+      "Voici les sous-catégories inscrites à la licence 5763-1392-01, dans les termes exacts de la Régie du bâtiment du Québec.",
+    licenceNote:
+      "Ces informations sont publiques. Vous pouvez les vérifier vous-même au registre des détenteurs de licence de la Régie du bâtiment du Québec, avec notre numéro de licence.",
+    licenceItems: [
+      { code: "2.5", label: "Excavation et terrassement" },
+      { code: "2.7", label: "Travaux d'emplacement" },
+      { code: "3.2", label: "Petits ouvrages de béton" },
+      { code: "4.2", label: "Travaux de maçonnerie non structurale, marbre et céramique" },
+      { code: "5.2", label: "Ouvrages métalliques" },
+      { code: "6.1", label: "Charpentes de bois" },
+      { code: "6.2", label: "Travaux de bois et plastique" },
+      { code: "7", label: "Isolation, étanchéité, couvertures et revêtement extérieur" },
+      { code: "8", label: "Portes et fenêtres" },
+      { code: "9", label: "Travaux de finition" },
+      { code: "11.2", label: "Équipements et produits spéciaux" },
+      { code: "12", label: "Armoires et comptoirs usinés" },
+      { code: "13.5", label: "Installations spéciales ou préfabriquées" },
+      { code: "17.2", label: "Intercommunication, téléphonie et surveillance" },
     ],
     valuesTitle: "Nos valeurs",
     values: [
       {
-        title: "Intégrité",
-        description: "Des estimations honnêtes et des engagements que nous respectons toujours.",
+        title: "Dire ce qui est",
+        description:
+          "Une estimation honnête, même quand le chiffre déplaît. Un imprévu annoncé le jour où il survient, pas à la facture finale.",
       },
       {
-        title: "Qualité",
-        description: "Des standards élevés à chaque étape, sans raccourci sur les matériaux ou la main-d'œuvre.",
+        title: "Écrire ce qu'on dit",
+        description:
+          "Le prix, l'échéancier et la portée des travaux sont écrits avant de commencer. Tout changement passe par un avenant signé.",
       },
       {
-        title: "Transparence",
-        description: "Un accès clair à l'échéancier, au budget et à l'avancement de votre projet.",
+        title: "Faire les jonctions",
+        description:
+          "Ce qui coûte cher au client, c'est ce qui tombe entre deux corps de métier. Notre licence large existe pour que ce vide n'existe pas.",
       },
       {
-        title: "Engagement",
-        description: "Nous traitons chaque projet, petit ou grand, avec la même rigueur.",
+        title: "Rester joignable",
+        description:
+          "Un projet, une personne responsable. Vous ne racontez pas votre dossier deux fois.",
       },
     ],
-    statsTitle: "Habitar en chiffres",
+    statsTitle: "Ce que couvre notre licence",
     stats: [
-      { value: "15+", label: "années d'expérience" },
-      { value: "120+", label: "projets complétés" },
-      { value: "40+", label: "partenaires et sous-traitants" },
-      { value: "98%", label: "taux de satisfaction client" },
+      { value: "Terrain", label: "excavation, terrassement et travaux d'emplacement" },
+      { value: "Structure", label: "petits ouvrages de béton et charpentes de bois" },
+      { value: "Enveloppe", label: "isolation, couverture, revêtement, portes et fenêtres" },
+      { value: "Finition", label: "céramique, marbre, armoires, comptoirs et finition" },
     ],
     ctaTitle: "Envie de travailler avec nous ?",
-    ctaSubtitle: "Contactez notre équipe pour discuter de votre prochain projet.",
+    ctaSubtitle: "Contactez-nous pour discuter de votre prochain projet.",
   },
   contact: {
     heroEyebrow: "Contactez-nous",
@@ -300,15 +382,16 @@ const fr: Dictionary = {
       message: "Décrivez votre projet",
       submit: "Envoyer la demande",
       submitting: "Ouverture de votre messagerie...",
-      success: "Votre logiciel de courriel s'ouvre avec votre demande déjà rédigée — il ne vous reste qu'à l'envoyer.",
+      success:
+        "Votre logiciel de courriel s'ouvre avec votre demande déjà rédigée — il ne vous reste qu'à l'envoyer.",
       successHint: "Rien ne s'est ouvert ? Écrivez-nous ou appelez-nous directement :",
       emailSubject: "Demande de soumission — Habitar Construction",
     },
     projectTypes: [
-      "Construction résidentielle neuve",
       "Rénovation résidentielle",
-      "Construction commerciale",
-      "Gestion de projet",
+      "Enveloppe du bâtiment — toiture, revêtement, fenêtres",
+      "Travaux extérieurs, excavation et fondation",
+      "Maison modulaire",
       "Autre",
     ],
     infoTitle: "Nos coordonnées",

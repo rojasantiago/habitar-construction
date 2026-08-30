@@ -69,9 +69,9 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
       <div className="absolute bottom-10 right-8 z-10 hidden xl:block">
         <div className="w-64 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-md">
           <p className="font-display text-4xl font-bold text-white">
-            {h.stats[1].value}
+            {h.badgeValue}
           </p>
-          <p className="mt-1 text-sm text-slate-300">{h.stats[1].label}</p>
+          <p className="mt-1 text-sm text-slate-300">{h.badgeLabel}</p>
           <div className="my-4 h-px w-full bg-white/10" />
           <a
             href={`/${locale}/projects`}

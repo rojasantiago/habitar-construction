@@ -7,6 +7,10 @@ import { Reveal } from "@/components/ui/Reveal";
 export function Testimonials({ dict }: { dict: Dictionary }) {
   const h = dict.home;
 
+  // No invented praise: with nothing real to quote, the section removes itself
+  // rather than fill the page with names that do not exist.
+  if (h.testimonials.length === 0) return null;
+
   return (
     <section className="bg-stone-50 py-24 sm:py-28">
       <Container className="flex flex-col gap-14">

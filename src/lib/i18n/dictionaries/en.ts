@@ -1,321 +1,395 @@
 import type { Dictionary } from "../types";
 
+/**
+ * English mirror of fr.ts. Same rule applies: nothing is claimed here that
+ * cannot be verified, and the words "general contractor" do not appear until
+ * the Régie has issued that licence.
+ */
 const en: Dictionary = {
   meta: {
     titleSuffix: "Habitar Construction",
     defaultDescription:
-      "Habitar Construction — general contractor specializing in project management, turnkey construction, and residential & commercial renovation.",
+      "Habitar Construction — building contractor serving Greater Montreal. Excavation, concrete, framing, roofing, cladding, doors and windows, cabinetry and finishing under one RBQ licence. Modular homes.",
   },
   nav: {
     home: "Home",
     services: "Services",
-    projects: "Projects",
+    modular: "Modular homes",
+    projects: "Our work",
     about: "About",
     contact: "Contact",
-    getQuote: "Free Quote",
+    getQuote: "Free estimate",
   },
   footer: {
     tagline:
-      "A trusted general contractor for your residential and commercial projects, from the first blueprint to the final key.",
+      "One licensed contractor for the site work, the structure, the envelope and the finishing of your project.",
     ctaTitle: "Questions about your project? Let's talk.",
     servicesTitle: "Services",
     companyTitle: "Company",
     contactTitle: "Contact",
-    hours: "Business Hours",
+    hours: "Business hours",
     hoursValue: "Mon – Fri: 7:00 AM – 5:00 PM",
     rights: "All rights reserved.",
   },
   common: {
     phone: "(514) 655-2458",
     email: "habitar.construction@gmail.com",
-    region: "Greater Montreal Area",
-    addressLine: "1234 Construction St, Montreal, QC",
-    ctaPrimary: "Request a Free Quote",
-    ctaSecondary: "View Our Projects",
-    readMore: "Learn More",
-    viewAll: "View All Services",
-    rbqLicense: "RBQ License: 57631392",
+    region: "Greater Montreal and surrounding areas",
+    addressLine: "7146 Pie-IX Blvd, Montreal, Quebec H2A 2G4",
+    ctaPrimary: "Request an estimate",
+    ctaSecondary: "See our services",
+    readMore: "Learn more",
+    viewAll: "View all services",
+    rbqLicense: "RBQ licence: 5763-1392-01",
   },
   home: {
-    heroEyebrow: "General Contractor — Residential & Commercial",
-    heroTitle: "Your project, delivered",
-    heroHighlight: "as promised.",
+    heroEyebrow: "Building contractor — Greater Montreal",
+    heroTitle: "From the ground up",
+    heroHighlight: "to the last coat.",
     heroSubtitle:
-      "A schedule we keep, a budget that's clear from day one, and one person accountable from start to finish. You always know where your project stands.",
-    heroCtaPrimary: "Request a Free Quote",
-    heroCtaSecondary: "Explore Our Services",
-    heroTrust: "RBQ License 57631392 · Insured · Guaranteed",
+      "Our RBQ licence covers fourteen subcategories: excavation, concrete, framing, masonry, roofing, exterior cladding, doors and windows, cabinetry and finishing. Fewer contractors on your site, and one person answering for all of it.",
+    heroCtaPrimary: "Request a free estimate",
+    heroCtaSecondary: "What our licence covers",
+    heroTrust: "RBQ licence 5763-1392-01 · 14 authorized subcategories",
     trustBadges: [
-      "RBQ License 57631392",
-      "Liability Insured",
-      "GCR Warranty",
-      "APCHQ Member",
-      "15 Years of Experience",
-      "Free Quote",
+      "RBQ licence 5763-1392-01",
+      "14 authorized subcategories",
+      "Excavation and earthwork",
+      "Wood framing",
+      "Roofing and exterior cladding",
+      "Doors and windows",
+      "Cabinets and countertops",
+      "Modular homes",
+      "Free estimate",
     ],
+    badgeValue: "14",
+    badgeLabel: "subcategories authorized on our licence",
     stats: [
-      { value: "15+", label: "years of experience" },
-      { value: "120+", label: "projects completed" },
-      { value: "98%", label: "satisfied clients" },
-      { value: "100%", label: "licensed & insured" },
+      { value: "Site", label: "excavation, earthwork and site preparation" },
+      { value: "Structure", label: "small concrete works and wood framing" },
+      { value: "Envelope", label: "insulation, roofing, cladding, doors and windows" },
+      { value: "Finishing", label: "ceramic, marble, cabinets, countertops and finishing" },
     ],
-    servicesEyebrow: "What We Offer",
-    servicesTitle: "Complete services, one dedicated team",
+    servicesEyebrow: "What we do",
+    servicesTitle: "Four areas, one licence",
     servicesSubtitle:
-      "From project management to turnkey construction, we coordinate every step so you don't have to.",
+      "Renovation, building envelope, site and structural work, and modular homes — carried out by the same crew, under the same licence number.",
     whyEyebrow: "Why Habitar",
-    whyTitle: "A reliable partner from groundbreaking to the final key",
+    whyTitle: "Fewer hands, fewer grey areas",
     whySubtitle:
-      "We combine hands-on expertise with rigorous project management to deliver on time and on budget.",
+      "Most jobs go wrong at the seams: between the excavator and the concrete crew, between the roofer and the finisher. When both sides of a seam belong to the same contractor, the seam stops being your problem.",
     whyItems: [
       {
-        title: "Transparent Management",
+        title: "A broad licence",
         description:
-          "Clear timelines, detailed budgets, and constant communication at every stage of the project.",
+          "Fourteen subcategories, from earthwork to cabinetry. The number is public — look it up in the Régie du bâtiment register before you even call us.",
       },
       {
-        title: "Skilled Team",
+        title: "One person accountable",
         description:
-          "A network of specialized, licensed trades supervised directly by our own team.",
+          "You don't referee between trades. One person answers for the schedule, the budget and the quality, from the first shovel to the last touch-up.",
       },
       {
-        title: "Guaranteed Quality",
+        title: "A written price",
         description:
-          "Rigorous construction standards and a workmanship warranty for your peace of mind.",
+          "A firm estimate, broken down line by line, stating what is included and what is not. Any addition goes through a signed change order before the work starts — never discovered on the final invoice.",
       },
       {
-        title: "On-Time Delivery",
+        title: "A budget tracked daily",
         description:
-          "Tight planning that minimizes delays and surprises, from start to finish.",
+          "Every hour worked and every purchase is recorded against your project. When you ask where the budget stands, the answer already exists.",
       },
     ],
-    processEyebrow: "Our Approach",
-    processTitle: "A simple, four-step process",
+    processEyebrow: "How we work",
+    processTitle: "Four steps, no surprises",
     processSteps: [
       {
-        title: "Consultation",
-        description: "We discuss your vision, needs, and budget.",
+        title: "Site visit",
+        description:
+          "We walk the space, listen to what you want, and note what has to be done. Free, with no commitment.",
       },
       {
-        title: "Planning",
-        description: "Plans, permits, and a timeline are prepared before the first hammer swings.",
+        title: "Estimate",
+        description:
+          "A firm price, broken down by line item. You see what's included, what isn't, and the proposed schedule.",
       },
       {
         title: "Construction",
-        description: "Our teams carry out the work with regular progress updates.",
+        description:
+          "Work proceeds on the agreed schedule. If something unexpected comes up, you hear about it that day — not at the end.",
       },
       {
         title: "Handover",
-        description: "Final inspection and key handover for a project delivered as promised.",
+        description:
+          "A walkthrough with you, corrections where needed, then the final invoice — matching the estimate and any signed change orders.",
       },
     ],
-    featuredEyebrow: "Recent Work",
-    featuredTitle: "A glimpse of our craftsmanship",
-    featuredSubtitle:
-      "Every project reflects our commitment to quality and attention to detail.",
-    featuredCta: "View all our projects",
+    featuredEyebrow: "Our work",
+    featuredTitle: "Recent projects",
+    featuredSubtitle: "A look at the projects we've delivered.",
+    featuredCta: "See all our work",
     testimonialsEyebrow: "Testimonials",
     testimonialsTitle: "What our clients say",
-    testimonials: [
-      {
-        quote:
-          "Habitar managed our extension from start to finish without any stress. Impeccable communication.",
-        name: "Marie-Claude Tremblay",
-        role: "Residential project, Laval",
-      },
-      {
-        quote:
-          "A professional team that respects deadlines and budget. We recommend them without hesitation.",
-        name: "Simon Bérubé",
-        role: "Commercial renovation, Montreal",
-      },
-      {
-        quote:
-          "From design to delivery, everything was handled with rigor. The result exceeded our expectations.",
-        name: "Josée Lamontagne",
-        role: "New construction, Longueuil",
-      },
-    ],
+    // Intentionally empty. The section stays hidden until a real client has
+    // agreed to be quoted and named.
+    testimonials: [],
     ctaTitle: "Ready to start your project?",
     ctaSubtitle:
-      "Get a free, no-obligation quote. Our team responds within 24 hours.",
+      "Get a free, no-obligation estimate. We answer every request within 24 hours.",
   },
   services: {
-    heroEyebrow: "Our Services",
-    heroTitle: "A general contractor for every stage of your project",
+    heroEyebrow: "Our services",
+    heroTitle: "What our licence lets us do",
     heroSubtitle:
-      "Whether building, expanding, or renovating, Habitar Construction coordinates every trade under one roof.",
+      "Fourteen RBQ subcategories covering the site, the structure, the envelope and the finishing — plus the assembly of factory-built modular homes.",
     list: [
       {
-        title: "Project Management",
+        title: "Residential renovation",
         description:
-          "We orchestrate every aspect of your project — budget, timeline, permits, and subcontractors — for flawless execution.",
+          "Kitchens, bathrooms, basements and full reconfigurations. This is our daily work, and the licence covers every trade such a job requires.",
         points: [
-          "Detailed planning and estimating",
-          "Municipal permit acquisition",
-          "Trade coordination",
-          "Budget tracking and regular reporting",
+          "Kitchens, bathrooms and basements",
+          "Ceramic, marble and non-structural masonry",
+          "Factory-made cabinets and countertops",
+          "Finishing work, doors and windows",
         ],
-        imageId: "photo-1503387762-592deb58ef4e",
+        imageId: "photo-1600607687939-ce8a6c25118c",
       },
       {
-        title: "Turnkey Construction",
+        title: "Building envelope",
         description:
-          "From design to key handover, we manage your entire new-construction project.",
+          "Everything standing between the interior and the Quebec climate: roofing, insulation, weatherproofing and exterior cladding all fall under a single subcategory of our licence.",
         points: [
-          "New residential construction",
-          "Extensions and additional stories",
-          "Commercial buildings",
-          "One single point of contact from start to finish",
+          "Roofing and weatherproofing",
+          "Insulation and air barriers",
+          "Exterior cladding",
+          "Door and window replacement",
+        ],
+        imageId: "photo-1600585154340-be6161a56a0c",
+      },
+      {
+        title: "Site and structural work",
+        description:
+          "From bare ground to a standing frame: excavation, grading, slabs and light foundations, then the wood structure and metalwork.",
+        points: [
+          "Excavation, earthwork and site preparation",
+          "Small concrete works — slabs, footings, light foundations",
+          "Wood framing",
+          "Metalwork",
         ],
         imageId: "photo-1541888946425-d81bb19240f5",
       },
       {
-        title: "Residential & Commercial Renovation",
+        title: "Modular homes",
         description:
-          "We transform your existing spaces with attention to detail and careful execution.",
+          "The house comes out of a factory. The site, the foundation, the assembly, the sealing and the finishing happen here — and that is exactly what our licence covers, including the prefabricated installation subcategory.",
         points: [
-          "Kitchens, bathrooms, and basements",
-          "Major renovations and full transformations",
-          "Commercial space build-outs",
-          "Code upgrades and energy efficiency",
+          "Site preparation and foundation",
+          "Module placement and anchoring",
+          "Sealing the envelope and roof",
+          "Interior finishing and connections",
         ],
-        imageId: "photo-1600607687939-ce8a6c25118c",
+        imageId: "photo-1600566753190-17f0baa2a6c3",
       },
     ],
     ctaTitle: "Have a project in mind?",
     ctaSubtitle:
       "Let's talk. We'll assess your project and propose a solution that fits your budget.",
   },
-  projects: {
-    heroEyebrow: "Our Work",
-    heroTitle: "Projects delivered with rigor and precision",
+  modular: {
+    heroEyebrow: "Modular construction",
+    heroTitle: "The house is built in a factory. The site is ours.",
     heroSubtitle:
-      "A look at our recent work in new construction, renovation, and project management.",
-    filterAll: "All",
-    items: [
+      "A modular home is built indoors, away from the weather, then delivered to your lot in sections. Everything that happens afterwards on site — the ground, the foundation, the assembly, the sealing, the finishing — falls under subcategories we already hold.",
+    introTitle: "How it works",
+    introParagraphs: [
+      "Modular is not a mobile home. These are complete sections of a house — walls, floors, roof, insulation, sometimes even cabinets and tile — built in a plant to the Quebec Construction Code, then transported and assembled on a permanent foundation.",
+      "The factory does what a factory does better than a job site: work dry, under constant light, with jigs and a quality check at every station. The result is a more consistent envelope and a schedule that no longer depends on rain or frost.",
+      "But a modular home does not set itself down. It needs prepared ground, a foundation accurate to the millimetre, a crane, a watertight assembly, then all the finishing on site. That is where we come in, and it is precisely what our licence covers.",
+    ],
+    galleryTitle: "What it looks like",
+    gallerySubtitle:
+      "Today's prefab is nothing like the catalogue bungalow: large openings, flat or low-slope roofs, wood and metal cladding.",
+    galleryNote:
+      "Illustrative images showing the style of contemporary modular construction. These are not projects built by Habitar Construction.",
+    gallery: [
+      { caption: "Simple volume, wood cladding", imageId: "photo-1600566753190-17f0baa2a6c3" },
+      { caption: "Large openings and a low-slope roof", imageId: "photo-1600585154340-be6161a56a0c" },
+      { caption: "Sections assembled on a foundation", imageId: "photo-1541888946425-d81bb19240f5" },
+      { caption: "Open interior finishing", imageId: "photo-1600566753086-00f18fb6b3ea" },
+    ],
+    stepsEyebrow: "Our role",
+    stepsTitle: "What we do on site",
+    stepsSubtitle:
+      "The factory delivers the modules. The five steps below happen on your lot, and each one matches a subcategory listed on our licence.",
+    steps: [
       {
-        title: "Contemporary Family Home",
-        category: "New Construction",
-        location: "Laval, QC",
+        title: "The ground",
         description:
-          "Turnkey construction of a 2,800 sq. ft. home, from groundbreaking to key handover.",
-        imageId: "photo-1600566753190-17f0baa2a6c3",
+          "Excavation, grading and site preparation. Delivering a module requires access for a long truck and a crane: that gets planned before anyone digs.",
       },
       {
-        title: "Kitchen & Dining Renovation",
-        category: "Residential Renovation",
-        location: "Montreal, QC",
+        title: "The foundation",
         description:
-          "Complete redesign of an open-concept kitchen with a center island and enlarged windows.",
-        imageId: "photo-1556911220-bff31c812dba",
+          "Footings, slab or light foundation poured to the factory's exact dimensions. A modular home does not forgive approximation — the modules have to land to the millimetre.",
       },
       {
-        title: "Corporate Office Build-Out",
-        category: "Commercial Construction",
-        location: "Brossard, QC",
+        title: "The assembly",
         description:
-          "Turnkey build-out of 6,000 sq. ft. of office space for a technology company.",
-        imageId: "photo-1487958449943-2429e8be8625",
+          "Sections craned into place, anchored, floors and walls joined. This is the day the house appears.",
       },
       {
-        title: "Extension & Finished Basement",
-        category: "Residential Renovation",
-        location: "Longueuil, QC",
+        title: "The sealing",
         description:
-          "Rear extension addition and complete basement build-out into a family living space.",
-        imageId: "photo-1600566753086-00f18fb6b3ea",
+          "Joints between modules are insulated and made airtight and watertight, then the roof and exterior cladding are completed. This step decides how the house performs for the next thirty years.",
       },
       {
-        title: "Multi-Tenant Commercial Space",
-        category: "Commercial Construction",
-        location: "Terrebonne, QC",
+        title: "The finishing",
         description:
-          "Full project management for the construction of a three-unit commercial building.",
-        imageId: "photo-1504307651254-35680f356dfd",
-      },
-      {
-        title: "Primary Bathroom Renovation",
-        category: "Residential Renovation",
-        location: "Repentigny, QC",
-        description:
-          "Complete transformation of a primary bathroom with a custom shower and heated flooring.",
-        imageId: "photo-1604709177225-055f99402ea3",
+          "Interior connections, tile, cabinets, countertops and touch-ups. Reserved trades — plumbing, electrical, ventilation — are carried out by contractors licensed in their own specialty.",
       },
     ],
+    advantagesEyebrow: "Why modular",
+    advantagesTitle: "What it changes for you",
+    advantages: [
+      {
+        title: "A shorter schedule",
+        description:
+          "The factory builds the house while we prepare the ground and the foundation. The two run in parallel instead of one after the other.",
+      },
+      {
+        title: "Less weather risk",
+        description:
+          "The structure and insulation are never exposed to rain or frost before being closed in. In Quebec, that exposure is what costs the most in rework.",
+      },
+      {
+        title: "A price known earlier",
+        description:
+          "A large share of the cost is fixed at the plant, on quote. What stays variable is the site — and the site is the part we price.",
+      },
+      {
+        title: "Measured quality",
+        description:
+          "Every module passes factory inspections before shipping, under the standards applicable in Quebec.",
+      },
+    ],
+    ctaTitle: "Have a lot and a modular project in mind?",
+    ctaSubtitle:
+      "Let's talk about the land, the access and the foundation. That's where feasibility is decided, and the conversation is free.",
+  },
+  projects: {
+    heroEyebrow: "Our work",
+    heroTitle: "Our projects",
+    heroSubtitle: "The jobs we've delivered, in photos.",
+    filterAll: "All",
+    // Empty until photographs of real job sites are added here. No stock
+    // photograph will ever be presented as our own work.
+    items: [],
+    emptyTitle: "Our job-site photos are coming",
+    emptyBody:
+      "We'd rather show an empty page than stock images passed off as our work. Photographs of our recent projects are being prepared. In the meantime, call us — we'll gladly talk through projects comparable to yours.",
     ctaTitle: "Your project could be next",
-    ctaSubtitle: "Let's discuss your vision and see how we can bring it to life.",
+    ctaSubtitle: "Let's discuss your vision and see how we can build it.",
   },
   about: {
-    heroEyebrow: "About Us",
-    heroTitle: "Building trust, one project at a time",
+    heroEyebrow: "About",
+    heroTitle: "A broad licence, one crew",
     heroSubtitle:
-      "Habitar Construction is a general contracting company committed to quality, transparency, and keeping our word.",
-    storyTitle: "Our Story",
+      "Habitar Construction is a Greater Montreal construction company holding a Régie du bâtiment du Québec licence covering fourteen subcategories of work.",
+    storyTitle: "Our approach",
     storyParagraphs: [
-      "Habitar Construction was founded with a simple mission: to give homeowners and businesses a construction partner they can genuinely trust.",
-      "Over the years, our team has built its reputation on disciplined project management, quality execution, and honest communication at every stage.",
-      "Today, we support residential and commercial clients across the Greater Montreal Area, from the first sketch to the final key handover.",
+      "Habitar Construction carries out renovation and residential construction work across Greater Montreal. The company is incorporated as 9377-7720 Québec inc. and holds RBQ licence 5763-1392-01.",
+      "What sets us apart is the breadth of that licence. Where many companies hold one or two subcategories, ours covers fourteen — from excavation and small concrete works through to cabinetry and finishing, by way of framing, roofing, exterior cladding, doors and windows.",
+      "In practice that means fewer subcontractors to coordinate on your site, less waiting between trades, and one person to ask. Reserved trades — plumbing, electrical, ventilation — are entrusted to contractors licensed in their own specialty, as the law requires.",
     ],
-    valuesTitle: "Our Values",
+    badgeValue: "14",
+    badgeLabel: "authorized RBQ subcategories",
+    licenceEyebrow: "Verifiable",
+    licenceTitle: "Our licence, in full",
+    licenceSubtitle:
+      "These are the subcategories listed on licence 5763-1392-01, in the Régie du bâtiment du Québec's own wording.",
+    licenceNote:
+      "This information is public. You can check it yourself against our licence number in the Régie du bâtiment du Québec's register of licence holders.",
+    licenceItems: [
+      { code: "2.5", label: "Excavation and earthwork" },
+      { code: "2.7", label: "Site preparation work" },
+      { code: "3.2", label: "Small concrete works" },
+      { code: "4.2", label: "Non-structural masonry, marble and ceramic work" },
+      { code: "5.2", label: "Metalwork" },
+      { code: "6.1", label: "Wood framing" },
+      { code: "6.2", label: "Wood and plastic work" },
+      { code: "7", label: "Insulation, weatherproofing, roofing and exterior cladding" },
+      { code: "8", label: "Doors and windows" },
+      { code: "9", label: "Finishing work" },
+      { code: "11.2", label: "Special equipment and products" },
+      { code: "12", label: "Factory-made cabinets and countertops" },
+      { code: "13.5", label: "Special or prefabricated installations" },
+      { code: "17.2", label: "Intercom, telephony and surveillance" },
+    ],
+    valuesTitle: "What we hold to",
     values: [
       {
-        title: "Integrity",
-        description: "Honest estimates and commitments we always keep.",
+        title: "Say what is",
+        description:
+          "An honest estimate, even when the number disappoints. A surprise reported the day it happens, not on the final invoice.",
       },
       {
-        title: "Quality",
-        description: "High standards at every step, with no shortcuts on materials or workmanship.",
+        title: "Write down what we say",
+        description:
+          "Price, schedule and scope are written before work begins. Any change goes through a signed change order.",
       },
       {
-        title: "Transparency",
-        description: "Clear visibility into your project's timeline, budget, and progress.",
+        title: "Own the seams",
+        description:
+          "What costs a client most is whatever falls between two trades. Our broad licence exists so that gap doesn't.",
       },
       {
-        title: "Commitment",
-        description: "We treat every project, large or small, with the same rigor.",
+        title: "Stay reachable",
+        description:
+          "One project, one person accountable. You never explain your file twice.",
       },
     ],
-    statsTitle: "Habitar by the Numbers",
+    statsTitle: "What our licence covers",
     stats: [
-      { value: "15+", label: "years of experience" },
-      { value: "120+", label: "projects completed" },
-      { value: "40+", label: "partners and subcontractors" },
-      { value: "98%", label: "client satisfaction rate" },
+      { value: "Site", label: "excavation, earthwork and site preparation" },
+      { value: "Structure", label: "small concrete works and wood framing" },
+      { value: "Envelope", label: "insulation, roofing, cladding, doors and windows" },
+      { value: "Finishing", label: "ceramic, marble, cabinets, countertops and finishing" },
     ],
     ctaTitle: "Want to work with us?",
-    ctaSubtitle: "Contact our team to discuss your next project.",
+    ctaSubtitle: "Get in touch to discuss your next project.",
   },
   contact: {
-    heroEyebrow: "Contact Us",
+    heroEyebrow: "Contact us",
     heroTitle: "Let's talk about your project",
     heroSubtitle:
-      "Fill out the form below or contact us directly. We respond to every request within 24 hours.",
-    formTitle: "Request a Quote",
+      "Fill in the form below or reach us directly. We answer every request within 24 hours.",
+    formTitle: "Request an estimate",
     formFields: {
-      name: "Full Name",
+      name: "Full name",
       email: "Email",
       phone: "Phone",
-      projectType: "Project Type",
+      projectType: "Project type",
       message: "Describe your project",
-      submit: "Send Request",
+      submit: "Send request",
       submitting: "Opening your email app...",
-      success: "Your email app is opening with your request already written — all that's left is to hit send.",
-      successHint: "Nothing opened? Email or call us directly:",
-      emailSubject: "Quote request — Habitar Construction",
+      success:
+        "Your email app is opening with the request already written — all you have to do is send it.",
+      successHint: "Nothing opened? Write or call us directly:",
+      emailSubject: "Estimate request — Habitar Construction",
     },
     projectTypes: [
-      "New Residential Construction",
-      "Residential Renovation",
-      "Commercial Construction",
-      "Project Management",
+      "Residential renovation",
+      "Building envelope — roofing, cladding, windows",
+      "Site work, excavation and foundation",
+      "Modular home",
       "Other",
     ],
-    infoTitle: "Contact Information",
+    infoTitle: "Our details",
     infoPhone: "Phone",
     infoEmail: "Email",
-    infoRegion: "Service Area",
-    infoHours: "Business Hours",
+    infoRegion: "Service area",
+    infoHours: "Business hours",
   },
 };
 

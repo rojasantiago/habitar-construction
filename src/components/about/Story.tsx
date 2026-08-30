@@ -21,9 +21,9 @@ export function Story({ dict }: { dict: Dictionary }) {
           </div>
           <div className="absolute -bottom-6 left-6 rounded-2xl border border-stone-100 bg-white px-6 py-4 shadow-2xl shadow-navy-900/15">
             <p className="font-display text-2xl font-bold text-navy-900">
-              {dict.about.stats[1].value}
+              {dict.about.badgeValue}
             </p>
-            <p className="text-xs text-slate-500">{dict.about.stats[1].label}</p>
+            <p className="text-xs text-slate-500">{dict.about.badgeLabel}</p>
           </div>
         </Reveal>
 

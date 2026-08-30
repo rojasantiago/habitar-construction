@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 import { isLocale, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { PageHero } from "@/components/PageHero";
-import { Story } from "@/components/about/Story";
-import { ValuesGrid } from "@/components/about/ValuesGrid";
-import { StatsBanner } from "@/components/about/StatsBanner";
-import { LicenceScope } from "@/components/about/LicenceScope";
+import { ModularIntro } from "@/components/modular/ModularIntro";
+import { ModularGallery } from "@/components/modular/ModularGallery";
+import { ModularSteps } from "@/components/modular/ModularSteps";
+import { ModularAdvantages } from "@/components/modular/ModularAdvantages";
 import { CTASection } from "@/components/CTASection";
 
 export async function generateMetadata({
@@ -17,10 +17,10 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = await getDictionary(locale);
-  return { title: dict.nav.about };
+  return { title: dict.nav.modular, description: dict.modular.heroSubtitle };
 }
 
-export default async function AboutPage({
+export default async function ModularPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -32,19 +32,19 @@ export default async function AboutPage({
   return (
     <>
       <PageHero
-        eyebrow={dict.about.heroEyebrow}
-        title={dict.about.heroTitle}
-        subtitle={dict.about.heroSubtitle}
+        eyebrow={dict.modular.heroEyebrow}
+        title={dict.modular.heroTitle}
+        subtitle={dict.modular.heroSubtitle}
       />
-      <Story dict={dict} />
-      <LicenceScope dict={dict} />
-      <ValuesGrid dict={dict} />
-      <StatsBanner dict={dict} />
+      <ModularIntro dict={dict} />
+      <ModularGallery dict={dict} />
+      <ModularSteps dict={dict} />
+      <ModularAdvantages dict={dict} />
       <CTASection
         locale={locale as Locale}
         dict={dict}
-        title={dict.about.ctaTitle}
-        subtitle={dict.about.ctaSubtitle}
+        title={dict.modular.ctaTitle}
+        subtitle={dict.modular.ctaSubtitle}
       />
     </>
   );

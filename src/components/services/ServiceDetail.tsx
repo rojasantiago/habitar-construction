@@ -1,9 +1,10 @@
 import Image from "next/image";
 import {
   CheckCircle2,
-  ClipboardList,
-  Building2,
+  Boxes,
+  Home,
   Hammer,
+  Shovel,
   LucideIcon,
 } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
@@ -13,7 +14,7 @@ import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import { img } from "@/lib/images";
 
-const icons: LucideIcon[] = [ClipboardList, Building2, Hammer];
+const icons: LucideIcon[] = [Hammer, Home, Shovel, Boxes];
 
 export function ServiceDetail({
   locale,
