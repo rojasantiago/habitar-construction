@@ -121,7 +121,7 @@ const en: Dictionary = {
       {
         title: "Handover",
         description:
-          "A walkthrough with you, corrections where needed, then the final invoice — matching the estimate and any signed change orders.",
+          "Handover comes after you have walked the finished work. Visits are planned throughout the job, so you have watched it take shape — at the end we walk it once more, or as many times as you like. We correct whatever needs correcting, and the project is handed over when you are satisfied with it.",
       },
     ],
     featuredEyebrow: "Our work",

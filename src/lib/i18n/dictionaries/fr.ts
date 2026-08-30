@@ -133,7 +133,7 @@ const fr: Dictionary = {
       {
         title: "Livraison",
         description:
-          "Inspection avec vous, corrections s'il y a lieu, puis la facture finale — qui correspond à la soumission et aux avenants signés.",
+          "La livraison se fait après votre visite des lieux. Comme des visites sont prévues tout au long du chantier, vous avez vu le travail prendre forme — à la fin, on en refait une, ou plusieurs si vous préférez. On corrige ce qui doit l'être, et le projet vous est livré quand vous en êtes satisfait.",
       },
     ],
     featuredEyebrow: "Réalisations",
