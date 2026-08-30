@@ -97,9 +97,9 @@ const fr: Dictionary = {
           "Fondée en 2018 et bâtie sans une seule publicité : chaque client est venu par la recommandation d'un autre. C'est exigeant, parce qu'une réputation bâtie comme ça se perd sur un seul chantier bâclé.",
       },
       {
-        title: "Un seul responsable",
+        title: "Une équipe derrière votre projet",
         description:
-          "Vous n'arbitrez pas entre corps de métier, et vous ne racontez pas votre projet à trois personnes différentes. Une personne répond de l'échéancier, du budget et de la qualité, du premier coup de pelle à la dernière retouche.",
+          "Nos équipes et nos sous-traitants avancent sous une même coordination, et vous avez un interlocuteur qui connaît le dossier au complet. Vous n'arbitrez pas entre corps de métier et vous ne racontez pas votre projet trois fois.",
       },
       {
         title: "Une soumission expliquée",
@@ -107,9 +107,9 @@ const fr: Dictionary = {
           "Une soumission écrite et ferme, que nous prenons le temps de vous expliquer avant que vous signiez. Ce qui est compris et ce qui ne l'est pas est écrit noir sur blanc, et tout ajout passe par un avenant signé avant les travaux — jamais découvert sur la facture finale.",
       },
       {
-        title: "Un budget suivi au jour le jour",
+        title: "Un chantier tenu",
         description:
-          "Chaque heure travaillée et chaque achat sont enregistrés au dossier de votre projet. Quand vous demandez où en est le budget, la réponse existe déjà.",
+          "Les lieux sont protégés avant qu'on commence, ramassés en fin de journée, et remis propres à la fin. Vous vivez souvent dans la maison pendant les travaux : on ne l'oublie pas.",
       },
     ],
     processEyebrow: "Notre approche",
@@ -203,9 +203,15 @@ const fr: Dictionary = {
       "Une maison modulaire est bâtie en usine, à l'abri du climat, puis livrée en sections sur votre terrain. Tout ce qui se passe ensuite sur le site — le terrain, la fondation, l'assemblage, le scellement, la finition — c'est nous.",
     introTitle: "Comment ça fonctionne",
     introParagraphs: [
-      "Le modulaire n'est pas une maison mobile. Ce sont des sections complètes de maison — murs, planchers, toiture, isolation, parfois même les armoires et la céramique — construites en usine selon le Code de construction du Québec, puis transportées et assemblées sur une fondation permanente.",
-      "L'usine fait ce qu'une usine fait mieux qu'un chantier : travailler au sec, sous éclairage constant, avec des gabarits et un contrôle de qualité à chaque poste. Le résultat est une enveloppe plus régulière et un échéancier qui ne dépend plus de la pluie ni du gel.",
-      "Mais une maison modulaire ne se pose pas toute seule. Il faut un terrain préparé, une fondation au millimètre, une grue, un assemblage étanche, puis toute la finition sur place. C'est là que nous intervenons.",
+      "Une maison modulaire n'est pas une maison mobile. Ce sont des sections complètes de maison — murs, planchers, toiture, isolation — construites en usine, puis livrées et assemblées sur votre terrain.",
+    ],
+    introPoints: [
+      "Construite en usine, au sec : jamais exposée à la pluie ni au gel",
+      "Bâtie selon le Code de construction du Québec, comme toute autre maison",
+      "Vérifiée à chaque étape en usine, plutôt qu'à l'œil en fin de chantier",
+      "Livrée en sections et assemblée sur une fondation permanente",
+      "Un échéancier qui ne dépend plus de la météo",
+      "Le terrain, la fondation, l'assemblage et la finition : c'est nous",
     ],
     galleryTitle: "À quoi ça ressemble",
     gallerySubtitle:
@@ -231,7 +237,7 @@ const fr: Dictionary = {
       {
         title: "La fondation",
         description:
-          "Semelles, dalle ou fondation légère coulées aux dimensions exactes de l'usine. Une maison modulaire ne pardonne pas l'à-peu-près : les modules doivent se poser au millimètre.",
+          "Semelles, dalle ou fondation légère, coulées aux dimensions fournies par l'usine. C'est ce qui fait que les modules se posent parfaitement, du premier coup.",
       },
       {
         title: "L'assemblage",

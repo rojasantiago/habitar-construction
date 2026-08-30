@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Check } from "lucide-react";
 import type { Dictionary } from "@/lib/i18n/types";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/ui/Reveal";
@@ -27,6 +28,17 @@ export function ModularIntro({ dict }: { dict: Dictionary }) {
                 {paragraph}
               </p>
             ))}
+
+            {/* L'essentiel en liste : la plupart des visiteurs parcourent cette
+                page avant de la lire, et repartent avec ces six lignes. */}
+            <ul className="flex flex-col gap-3">
+              {m.introPoints.map((point) => (
+                <li key={point} className="flex items-start gap-3">
+                  <Check size={18} className="mt-0.5 shrink-0 text-orange-500" strokeWidth={2.5} />
+                  <span className="text-base leading-relaxed text-slate-700">{point}</span>
+                </li>
+              ))}
+            </ul>
           </Reveal>
 
           <Reveal delay={120} className="relative aspect-4/3 overflow-hidden rounded-2xl">

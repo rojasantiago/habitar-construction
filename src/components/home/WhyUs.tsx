@@ -1,9 +1,9 @@
 import Image from "next/image";
 import {
-  MessageSquareText,
+  HeartHandshake,
   Users,
-  BadgeCheck,
-  CalendarClock,
+  FileCheck,
+  HardHat,
   Award,
 } from "lucide-react";
 import type { Dictionary } from "@/lib/i18n/types";
@@ -11,7 +11,8 @@ import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/ui/Reveal";
 import { IMAGES, img } from "@/lib/images";
 
-const icons = [MessageSquareText, Users, BadgeCheck, CalendarClock];
+// Famille, equipe, soumission expliquee, chantier tenu.
+const icons = [HeartHandshake, Users, FileCheck, HardHat];
 
 export function WhyUs({ dict }: { dict: Dictionary }) {
   const h = dict.home;

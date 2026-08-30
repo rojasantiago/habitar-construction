@@ -85,9 +85,9 @@ const en: Dictionary = {
           "Founded in 2018 and built without a single advertisement: every client came on another's recommendation. That is demanding, because a reputation built that way is lost on one badly run job.",
       },
       {
-        title: "One person accountable",
+        title: "A crew behind your project",
         description:
-          "You don't referee between trades, and you don't explain your project to three different people. One person answers for the schedule, the budget and the quality, from the first shovel to the last touch-up.",
+          "Our crews and our trades work under one coordination, and you have a single contact who knows the whole file. You don't referee between trades and you don't explain your project three times.",
       },
       {
         title: "An estimate we explain",
@@ -95,9 +95,9 @@ const en: Dictionary = {
           "A firm written estimate, which we take the time to walk you through before you sign. What is included and what is not is set out in black and white, and any addition goes through a signed change order before the work starts — never discovered on the final invoice.",
       },
       {
-        title: "A budget tracked daily",
+        title: "A site kept properly",
         description:
-          "Every hour worked and every purchase is recorded against your project. When you ask where the budget stands, the answer already exists.",
+          "The premises are protected before we start, tidied at the end of each day, and left clean at the end. You are often living in the house while the work goes on: we don't forget it.",
       },
     ],
     processEyebrow: "How we work",
@@ -191,9 +191,15 @@ const en: Dictionary = {
       "A modular home is built indoors, away from the weather, then delivered to your lot in sections. Everything that happens afterwards on site — the ground, the foundation, the assembly, the sealing, the finishing — is ours.",
     introTitle: "How it works",
     introParagraphs: [
-      "Modular is not a mobile home. These are complete sections of a house — walls, floors, roof, insulation, sometimes even cabinets and tile — built in a plant to the Quebec Construction Code, then transported and assembled on a permanent foundation.",
-      "The factory does what a factory does better than a job site: work dry, under constant light, with jigs and a quality check at every station. The result is a more consistent envelope and a schedule that no longer depends on rain or frost.",
-      "But a modular home does not set itself down. It needs prepared ground, a foundation accurate to the millimetre, a crane, a watertight assembly, then all the finishing on site. That is where we come in.",
+      "A modular home is not a mobile home. These are complete sections of a house — walls, floors, roof, insulation — built in a factory, then delivered and assembled on your lot.",
+    ],
+    introPoints: [
+      "Built indoors and dry: never exposed to rain or frost",
+      "Built to the Quebec Construction Code, like any other house",
+      "Checked at every stage in the plant, rather than by eye at the end of a job",
+      "Delivered in sections and assembled on a permanent foundation",
+      "A schedule that no longer depends on the weather",
+      "The ground, the foundation, the assembly and the finishing: that's us",
     ],
     galleryTitle: "What it looks like",
     gallerySubtitle:
@@ -219,7 +225,7 @@ const en: Dictionary = {
       {
         title: "The foundation",
         description:
-          "Footings, slab or light foundation poured to the factory's exact dimensions. A modular home does not forgive approximation — the modules have to land to the millimetre.",
+          "Footings, slab or light foundation, poured to the dimensions the factory provides. That is what makes the modules land perfectly, first time.",
       },
       {
         title: "The assembly",

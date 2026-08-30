@@ -90,6 +90,8 @@ export interface Dictionary {
     heroSubtitle: string;
     introTitle: string;
     introParagraphs: string[];
+    /** Les faits clés en liste, pour qui lit la page en diagonale. */
+    introPoints: string[];
     galleryTitle: string;
     gallerySubtitle: string;
     galleryNote: string;
