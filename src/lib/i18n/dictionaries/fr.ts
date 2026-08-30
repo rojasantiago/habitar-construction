@@ -297,7 +297,7 @@ const fr: Dictionary = {
     items: [],
     emptyTitle: "Peu de photos, beaucoup de chantiers",
     emptyBody:
-      "Habitar s'est bâtie par le bouche-à-oreille. Pendant des années, notre énergie est allée au résultat et à la satisfaction du client plutôt qu'à notre propre vitrine — nous avons donc accumulé les chantiers terminés bien plus vite que les photos. Nous rattrapons ce retard et cette page se remplira. D'ici là, appelez-nous : nous vous parlerons de projets comparables au vôtre, et nous pouvons vous mettre en contact avec des clients que nous avons servis.",
+      "Habitar s'est bâtie par le bouche-à-oreille. Pendant des années, notre énergie est allée au résultat et à la satisfaction du client plutôt qu'à notre propre vitrine — nous avons donc accumulé les chantiers terminés bien plus vite que les photos. Nous rattrapons ce retard et cette page se remplira. D'ici là, appelez-nous : nous vous parlerons volontiers de projets comparables au vôtre.",
     ctaTitle: "Votre projet pourrait être le prochain",
     ctaSubtitle: "Discutons de votre vision et voyons comment nous pouvons la concrétiser.",
   },

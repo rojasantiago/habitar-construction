@@ -285,7 +285,7 @@ const en: Dictionary = {
     items: [],
     emptyTitle: "Few photos, plenty of job sites",
     emptyBody:
-      "Habitar was built on word of mouth. For years our energy went into the result and the client's satisfaction rather than our own shop window — so we have collected finished job sites a good deal faster than photographs. We're catching up, and this page will fill. In the meantime, call us: we'll talk you through projects comparable to yours, and we can put you in touch with clients we've worked for.",
+      "Habitar was built on word of mouth. For years our energy went into the result and the client's satisfaction rather than our own shop window — so we have collected finished job sites a good deal faster than photographs. We're catching up, and this page will fill. In the meantime, call us: we'll gladly talk you through projects comparable to yours.",
     ctaTitle: "Your project could be next",
     ctaSubtitle: "Let's discuss your vision and see how we can build it.",
   },
