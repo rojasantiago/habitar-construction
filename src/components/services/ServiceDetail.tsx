@@ -1,14 +1,5 @@
 import Image from "next/image";
-import {
-  CheckCircle2,
-  Boxes,
-  ClipboardList,
-  Layers,
-  Home,
-  Hammer,
-  Shovel,
-  LucideIcon,
-} from "lucide-react";
+import { CheckCircle2, Boxes, Home, Hammer, LucideIcon } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/types";
 import { Container } from "@/components/ui/Container";
@@ -16,7 +7,8 @@ import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import { img } from "@/lib/images";
 
-const icons: LucideIcon[] = [Home, Boxes, Hammer, Layers, Shovel, ClipboardList];
+// Un icone par service : construction neuve, modulaire, renovation majeure.
+const icons: LucideIcon[] = [Home, Boxes, Hammer];
 
 export function ServiceDetail({
   locale,

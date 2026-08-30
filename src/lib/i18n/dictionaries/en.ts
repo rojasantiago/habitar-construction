@@ -9,7 +9,7 @@ const en: Dictionary = {
   meta: {
     titleSuffix: "Habitar Construction",
     defaultDescription:
-      "Habitar Construction — building contractor serving Greater Montreal. Excavation, concrete, framing, roofing, cladding, doors and windows, cabinetry and finishing under one RBQ licence. Modular homes.",
+      "Habitar Construction — a family construction company serving Greater Montreal since 2018. New construction, modular homes and major renovation. RBQ licence 5763-1392-01.",
   },
   nav: {
     home: "Home",
@@ -47,49 +47,47 @@ const en: Dictionary = {
     heroTitle: "From the ground up",
     heroHighlight: "to the last coat.",
     heroSubtitle:
-      "Our RBQ licence covers fourteen subcategories: excavation, concrete, framing, masonry, roofing, exterior cladding, doors and windows, cabinetry and finishing. Fewer contractors on your site, and one person answering for all of it.",
+      "New construction, modular homes and major renovation across Greater Montreal. A family company since 2018, built on its clients' recommendations.",
     heroCtaPrimary: "Request a free estimate",
-    heroCtaSecondary: "What our licence covers",
-    heroTrust: "RBQ licence 5763-1392-01 · 14 authorized subcategories",
+    heroCtaSecondary: "See our services",
+    heroTrust: "RBQ licence 5763-1392-01 · Family company since 2018",
     trustBadges: [
       "RBQ licence 5763-1392-01",
-      "14 authorized subcategories",
-      "Excavation and earthwork",
-      "Wood framing",
-      "Roofing and exterior cladding",
-      "Doors and windows",
-      "Cabinets and countertops",
-      "Modular homes",
       "Family company since 2018",
+      "New construction",
+      "Modular homes",
+      "Major renovation",
       "Recommended by word of mouth",
       "Free estimate",
+      "Answered within 24 hours",
     ],
-    badgeValue: "14",
-    badgeLabel: "subcategories authorized on our licence",
+    badgeValue: "2018",
+    badgeLabel: "in business since",
+    // The four stages of a job, in words a homeowner recognizes.
     stats: [
-      { value: "Site", label: "excavation, earthwork and site preparation" },
-      { value: "Structure", label: "small concrete works and wood framing" },
-      { value: "Envelope", label: "insulation, roofing, cladding, doors and windows" },
-      { value: "Finishing", label: "ceramic, marble, cabinets, countertops and finishing" },
+      { value: "Site", label: "excavation, grading and foundation" },
+      { value: "Structure", label: "framing, roofing and concrete works" },
+      { value: "Envelope", label: "insulation, cladding, doors and windows" },
+      { value: "Finishing", label: "tile, cabinets, countertops and touch-ups" },
     ],
     servicesEyebrow: "What we do",
-    servicesTitle: "Six areas, one licence",
+    servicesTitle: "Three ways to build with us",
     servicesSubtitle:
-      "New construction, modular homes and major renovation — plus the envelope, site work and project management, under the same licence number.",
+      "Build new, set down a modular home, or transform completely what is already there.",
     whyEyebrow: "Why Habitar",
     whyTitle: "Fewer hands, fewer grey areas",
     whySubtitle:
       "Most jobs go wrong at the seams: between the excavator and the concrete crew, between the roofer and the finisher. When both sides of a seam belong to the same contractor, the seam stops being your problem.",
     whyItems: [
       {
-        title: "A broad licence",
+        title: "A family company",
         description:
-          "Fourteen subcategories, from earthwork to cabinetry. The number is public — look it up in the Régie du bâtiment register before you even call us.",
+          "Founded in 2018 and built without a single advertisement: every client came on another's recommendation. That is demanding, because a reputation built that way is lost on one badly run job.",
       },
       {
         title: "One person accountable",
         description:
-          "You don't referee between trades, and you don't explain your project to three different people. The owner is on site and answers personally for the schedule, the budget and the quality, from the first shovel to the last touch-up.",
+          "You don't referee between trades, and you don't explain your project to three different people. One person answers for the schedule, the budget and the quality, from the first shovel to the last touch-up.",
       },
       {
         title: "A written price",
@@ -143,15 +141,15 @@ const en: Dictionary = {
     heroEyebrow: "Our services",
     heroTitle: "From bare ground to the last coat of paint",
     heroSubtitle:
-      "New construction, modular homes and major renovation — plus the envelope, site work and project management. Fourteen RBQ subcategories under a single licence number.",
+      "Three ways to build with us: build new, set down a modular home, or transform completely what is already there.",
     list: [
       {
         title: "New construction",
         description:
-          "We put the house up: the ground, the foundation, the framing, the roof, the envelope, the doors and windows, then all of the interior finishing. Plumbing, electrical and ventilation are trades reserved by law — they are carried out by contractors licensed in those specialties.",
+          "We put the house up: the ground, the foundation, the framing, the roof, the envelope, the doors and windows, then all of the interior finishing. You get a written estimate setting out line by line what is included and what is not, and a schedule we hold to.",
         points: [
           "Excavation, earthwork and foundation",
-          "Wood framing and roofing",
+          "Wood framing, roofing and metalwork",
           "Insulation, weatherproofing and exterior cladding",
           "Doors, windows, cabinets and interior finishing",
         ],
@@ -160,19 +158,19 @@ const en: Dictionary = {
       {
         title: "Modular homes",
         description:
-          "The house leaves the factory closed in and insulated. The ground, the foundation, the crane assembly, the sealing of the joints and the finishing all happen on site — and that is exactly what our licence covers, including the prefabricated installation subcategory.",
+          "The house leaves the factory closed in and insulated, then lands on your lot. The ground, the foundation, the crane assembly, the sealing of the joints and the finishing happen on site. It is faster, often cheaper, and the envelope comes out more consistent than one built in the open.",
         points: [
           "Site preparation and foundation",
           "Module placement and anchoring",
           "Sealing the envelope and roof",
-          "Interior finishing and connections",
+          "Interior finishing to the client's choice",
         ],
         imageId: "photo-1600566753190-17f0baa2a6c3",
       },
       {
         title: "Major renovation and conversion",
         description:
-          "Stripping a unit or a house back to the structure, then rebuilding the partitions, the insulation, the windows and every finish. This is the job where the breadth of our licence counts most: nearly everything that has to be touched is ours. Residential and commercial alike — we have rebuilt entire units and store interiors.",
+          "Stripping a unit or a house back to the structure, then rebuilding the partitions, the insulation, the windows and every finish. Residential and commercial alike — we have rebuilt entire units and store interiors.",
         points: [
           "Full strip-out back to the framing",
           "New partitions, insulation and soundproofing",
@@ -180,42 +178,6 @@ const en: Dictionary = {
           "Commercial fit-out and renovation",
         ],
         imageId: "photo-1600607687939-ce8a6c25118c",
-      },
-      {
-        title: "Building envelope",
-        description:
-          "Everything standing between the interior and the Quebec climate. Roofing, insulation, weatherproofing and cladding fall under a single subcategory of our licence — the one that decides the heating bill and how long the building lasts.",
-        points: [
-          "Roofing and weatherproofing",
-          "Insulation and air barriers",
-          "Exterior cladding",
-          "Door and window replacement",
-        ],
-        imageId: "photo-1600585154340-be6161a56a0c",
-      },
-      {
-        title: "Site work and foundation",
-        description:
-          "The ground before the building: digging, grading, draining, then pouring the footings, slab or light foundation that will carry the structure.",
-        points: [
-          "Excavation, earthwork and site preparation",
-          "Small concrete works — slabs, footings, light foundations",
-          "Grading and drainage",
-          "Metalwork",
-        ],
-        imageId: "photo-1504307651254-35680f356dfd",
-      },
-      {
-        title: "Project management",
-        description:
-          "A job site is ten trades that have to arrive in the right order. We build the budget, set the schedule, coordinate the trades and track progress — while you keep your own contract with each contractor.",
-        points: [
-          "Estimating and a line-by-line budget",
-          "Schedule and trade sequencing",
-          "Site coordination and progress reporting",
-          "Cost control: every hour and every purchase on file",
-        ],
-        imageId: "photo-1503387762-592deb58ef4e",
       },
     ],
     ctaTitle: "Have a project in mind?",
@@ -226,12 +188,12 @@ const en: Dictionary = {
     heroEyebrow: "Modular construction",
     heroTitle: "The house is built in a factory. The site is ours.",
     heroSubtitle:
-      "A modular home is built indoors, away from the weather, then delivered to your lot in sections. Everything that happens afterwards on site — the ground, the foundation, the assembly, the sealing, the finishing — falls under subcategories we already hold.",
+      "A modular home is built indoors, away from the weather, then delivered to your lot in sections. Everything that happens afterwards on site — the ground, the foundation, the assembly, the sealing, the finishing — is ours.",
     introTitle: "How it works",
     introParagraphs: [
       "Modular is not a mobile home. These are complete sections of a house — walls, floors, roof, insulation, sometimes even cabinets and tile — built in a plant to the Quebec Construction Code, then transported and assembled on a permanent foundation.",
       "The factory does what a factory does better than a job site: work dry, under constant light, with jigs and a quality check at every station. The result is a more consistent envelope and a schedule that no longer depends on rain or frost.",
-      "But a modular home does not set itself down. It needs prepared ground, a foundation accurate to the millimetre, a crane, a watertight assembly, then all the finishing on site. That is where we come in, and it is precisely what our licence covers.",
+      "But a modular home does not set itself down. It needs prepared ground, a foundation accurate to the millimetre, a crane, a watertight assembly, then all the finishing on site. That is where we come in.",
     ],
     galleryTitle: "What it looks like",
     gallerySubtitle:
@@ -247,7 +209,7 @@ const en: Dictionary = {
     stepsEyebrow: "Our role",
     stepsTitle: "What we do on site",
     stepsSubtitle:
-      "The factory delivers the modules. The five steps below happen on your lot, and each one matches a subcategory listed on our licence.",
+      "The factory delivers the modules. The five steps below happen on your lot, and our crews are the ones who carry them out.",
     steps: [
       {
         title: "The ground",
@@ -276,27 +238,37 @@ const en: Dictionary = {
       },
     ],
     advantagesEyebrow: "Why modular",
-    advantagesTitle: "What it changes for you",
+    advantagesTitle: "The advantages, and the limits",
     advantages: [
       {
         title: "A shorter schedule",
         description:
-          "The factory builds the house while we prepare the ground and the foundation. The two run in parallel instead of one after the other.",
+          "The factory builds the house while we prepare the ground and the foundation. The two run in parallel instead of one after the other, which takes months off a conventional build.",
+      },
+      {
+        title: "Generally a lower cost",
+        description:
+          "A plant buys in volume, cuts to jigs and wastes far less material than a job site. It also never redoes work the rain got to. Those savings show up in the price.",
       },
       {
         title: "Less weather risk",
         description:
-          "The structure and insulation are never exposed to rain or frost before being closed in. In Quebec, that exposure is what costs the most in rework.",
+          "The structure and insulation are never exposed to rain or frost before being closed in. In Quebec that exposure is what costs the most in rework — and it only shows after a few winters.",
       },
       {
-        title: "A price known earlier",
+        title: "What is limited: the volume",
         description:
-          "A large share of the cost is fixed at the plant, on quote. What stays variable is the site — and the site is the part we price.",
+          "The constraints come from the above-ground structure. A module has to fit on a trailer and pass under the wires, so section widths, spans and certain roof shapes are bounded. You cannot draw just any geometry.",
+      },
+      {
+        title: "What is not: the finishes",
+        description:
+          "Cladding, flooring, tile, cabinets, countertops, colour and hardware are all adjusted to your taste. The range is more framed than on a conventional site, but wide enough that two houses of the same model do not look alike.",
       },
       {
         title: "Measured quality",
         description:
-          "Every module passes factory inspections before shipping, under the standards applicable in Quebec.",
+          "Every module passes factory inspections before shipping, under the standards applicable in Quebec — station by station, rather than by eye at the end of a job.",
       },
     ],
     ctaTitle: "Have a lot and a modular project in mind?",
@@ -327,34 +299,18 @@ const en: Dictionary = {
       "Habitar Construction is a family company. It was built by a tradesman with more than fifteen years on job sites who, for years, did all of it himself: the estimating, the work, the follow-up with clients.",
       "The company has been registered since April 2018 and has never advertised. Every new client came on the recommendation of an earlier one, which remains the one form of marketing you cannot buy. Our energy went into the result and the client's satisfaction rather than our own shop window — which is why we have more finished job sites behind us than photographs of them.",
       "Today the next generation has stepped in. Site management has passed to a construction project manager trained on large Montreal job sites, while the founder stays in the background to advise. That is what lets Habitar take on more ambitious work than before, with the same standards on the build and a tighter grip on the budget.",
-      "The company is incorporated as 9377-7720 Québec inc. and holds RBQ licence 5763-1392-01. What sets us apart is the breadth of that licence: where many companies hold one or two subcategories, ours covers fourteen — from excavation and small concrete works through to cabinetry and finishing, by way of framing, roofing, exterior cladding, doors and windows.",
-      "In practice that means fewer subcontractors to coordinate on your site, less waiting between trades, and one person to ask. Reserved trades — plumbing, electrical, ventilation — are carried out by contractors licensed in their own specialty, as the law requires.",
       "What a project manager brings is how the site is kept: a budget built line by line before the first hammer swing, a written schedule, and every hour worked and every purchase recorded against the project file — not estimated at the end.",
+      "The company is incorporated as 9377-7720 Québec inc. and holds RBQ licence 5763-1392-01.",
     ],
-    badgeValue: "14",
-    badgeLabel: "authorized RBQ subcategories",
+    badgeValue: "2018",
+    badgeLabel: "in business since",
     licenceEyebrow: "Verifiable",
-    licenceTitle: "Our licence, in full",
+    licenceTitle: "Our licence",
     licenceSubtitle:
-      "These are the subcategories listed on licence 5763-1392-01, in the Régie du bâtiment du Québec's own wording.",
+      "A construction company has to be licensed by the Régie du bâtiment du Québec. Here is our number — it is public, and nothing stops you from checking it before you trust us with anything.",
     licenceNote:
-      "This information is public. You can check it yourself against our licence number in the Régie du bâtiment du Québec's register of licence holders.",
-    licenceItems: [
-      { code: "2.5", label: "Excavation and earthwork" },
-      { code: "2.7", label: "Site preparation work" },
-      { code: "3.2", label: "Small concrete works" },
-      { code: "4.2", label: "Non-structural masonry, marble and ceramic work" },
-      { code: "5.2", label: "Metalwork" },
-      { code: "6.1", label: "Wood framing" },
-      { code: "6.2", label: "Wood and plastic work" },
-      { code: "7", label: "Insulation, weatherproofing, roofing and exterior cladding" },
-      { code: "8", label: "Doors and windows" },
-      { code: "9", label: "Finishing work" },
-      { code: "11.2", label: "Special equipment and products" },
-      { code: "12", label: "Factory-made cabinets and countertops" },
-      { code: "13.5", label: "Special or prefabricated installations" },
-      { code: "17.2", label: "Intercom, telephony and surveillance" },
-    ],
+      "Look it up in the Régie du bâtiment du Québec's register of licence holders. We are also on the Quebec enterprise register under number 1173640773, since 30 April 2018.",
+    licenceItems: [],
     valuesTitle: "What we hold to",
     values: [
       {
@@ -370,7 +326,7 @@ const en: Dictionary = {
       {
         title: "Own the seams",
         description:
-          "What costs a client most is whatever falls between two trades. Our broad licence exists so that gap doesn't.",
+          "What costs a client most is whatever falls between two trades. We cover both sides of most of those seams ourselves, so that gap does not exist.",
       },
       {
         title: "Stay reachable",
@@ -378,12 +334,12 @@ const en: Dictionary = {
           "One project, one person accountable. You never explain your file twice.",
       },
     ],
-    statsTitle: "What our licence covers",
+    statsTitle: "The four stages of a job",
     stats: [
-      { value: "Site", label: "excavation, earthwork and site preparation" },
-      { value: "Structure", label: "small concrete works and wood framing" },
-      { value: "Envelope", label: "insulation, roofing, cladding, doors and windows" },
-      { value: "Finishing", label: "ceramic, marble, cabinets, countertops and finishing" },
+      { value: "Site", label: "excavation, grading and foundation" },
+      { value: "Structure", label: "framing, roofing and concrete works" },
+      { value: "Envelope", label: "insulation, cladding, doors and windows" },
+      { value: "Finishing", label: "tile, cabinets, countertops and touch-ups" },
     ],
     ctaTitle: "Want to work with us?",
     ctaSubtitle: "Get in touch to discuss your next project.",

@@ -1,10 +1,18 @@
-import { Clock, CloudRain, FileText, ShieldCheck, LucideIcon } from "lucide-react";
+import {
+  Clock,
+  PiggyBank,
+  CloudRain,
+  Ruler,
+  Palette,
+  ShieldCheck,
+  LucideIcon,
+} from "lucide-react";
 import type { Dictionary } from "@/lib/i18n/types";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
 
-const icons: LucideIcon[] = [Clock, CloudRain, FileText, ShieldCheck];
+const icons: LucideIcon[] = [Clock, PiggyBank, CloudRain, Ruler, Palette, ShieldCheck];
 
 export function ModularAdvantages({ dict }: { dict: Dictionary }) {
   const m = dict.modular;

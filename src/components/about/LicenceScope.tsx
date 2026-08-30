@@ -35,20 +35,25 @@ export function LicenceScope({ dict }: { dict: Dictionary }) {
           </div>
         </Reveal>
 
-        <div className="grid gap-3 sm:grid-cols-2">
-          {a.licenceItems.map((item, i) => (
-            <Reveal key={item.code} delay={Math.min(i, 8) * 45}>
-              <div className="flex h-full items-start gap-3.5 rounded-xl border border-stone-200 bg-white px-5 py-4">
-                <BadgeCheck size={18} className="mt-0.5 shrink-0 text-orange-500" />
-                <p className="text-sm leading-relaxed text-slate-700">
-                  <span className="font-display font-bold text-navy-900">{item.code}</span>
-                  <span className="mx-2 text-stone-300">|</span>
-                  {item.label}
-                </p>
-              </div>
-            </Reveal>
-          ))}
-        </div>
+        {/* La liste détaillée des sous-catégories est volontairement vide : elle
+            parlait à la Régie, pas au propriétaire qui lit la page. Le numéro
+            suffit à rendre la licence vérifiable, ce qui est le seul but. */}
+        {a.licenceItems.length > 0 && (
+          <div className="grid gap-3 sm:grid-cols-2">
+            {a.licenceItems.map((item, i) => (
+              <Reveal key={item.code} delay={Math.min(i, 8) * 45}>
+                <div className="flex h-full items-start gap-3.5 rounded-xl border border-stone-200 bg-white px-5 py-4">
+                  <BadgeCheck size={18} className="mt-0.5 shrink-0 text-orange-500" />
+                  <p className="text-sm leading-relaxed text-slate-700">
+                    <span className="font-display font-bold text-navy-900">{item.code}</span>
+                    <span className="mx-2 text-stone-300">|</span>
+                    {item.label}
+                  </p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        )}
 
         <Reveal>
           <p className="mx-auto max-w-2xl text-center text-xs leading-relaxed text-slate-400">
